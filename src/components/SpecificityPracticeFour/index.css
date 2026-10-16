@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.specificity-practice-four .language-container {
+  padding: 40px;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.specificity-practice-four h1 {
+  color: orange;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.specificity-practice-four .blue-text {
+  color: blue;
+}
+
+.specificity-practice-four #description {
+  font-size: 20px;
+}
+
+.specificity-practice-four .language-description {
+  font-size: 16px;
+}
+
+.specificity-practice-four button {
+  width: 100px;
+  height: 30px;
+  border-width: 0;
+  border-radius: 5px;
+}

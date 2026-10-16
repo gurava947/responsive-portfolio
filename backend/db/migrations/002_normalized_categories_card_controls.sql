@@ -1,0 +1,1 @@
+-- migrate.js applies the transactional v1-to-v2 changes and records user_version 2.

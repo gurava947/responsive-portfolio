@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.specificity-practice-six h1 {
+  padding: 20px;
+  color: white;
+  background-color: burlywood;
+  font-family: "Open Sans";
+}
+
+.specificity-practice-six .black-text {
+  color: black !important;
+}
+
+.specificity-practice-six .green-text {
+  color: green;
+}
+
+.specificity-practice-six #orangeText {
+  color: orange;
+}
+
+.specificity-practice-six h1#orangeText {
+  color: blue !important;
+}

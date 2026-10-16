@@ -1,0 +1,1583 @@
+[
+  {
+    "id": "responsive-color-palette",
+    "title": "Responsive Color Palette",
+    "category": "Responsive Design",
+    "category_label": "Practice 01 · Responsive Design",
+    "description": "A CCBP Bootstrap grid exercise displaying six theme colors across responsive breakpoints.",
+    "image": "/responsive-color-palette-preview.svg",
+    "image_alt": "Responsive Bootstrap color palette with six color samples",
+    "component_key": "responsive-color-palette",
+    "display_order": 1,
+    "active": true,
+    "technologies": [
+      "React",
+      "Bootstrap Grid",
+      "CSS"
+    ],
+    "data": {
+      "title": "Responsive Color Palette",
+      "colors": [
+        {
+          "name": "Primary",
+          "className": "bg-primary",
+          "columns": "col-12 col-sm-8 col-md-5 col-lg-7 col-xl-3"
+        },
+        {
+          "name": "Secondary",
+          "className": "bg-secondary",
+          "columns": "col-12 col-sm-4 col-md-5 col-lg-2 col-xl-5"
+        },
+        {
+          "name": "Success",
+          "className": "bg-success",
+          "columns": "col-12 col-sm-4 col-md-2 col-lg-3 col-xl-2"
+        },
+        {
+          "name": "Info",
+          "className": "bg-info",
+          "columns": "col-12 col-sm-8 col-md-10 col-lg-3 col-xl-2"
+        },
+        {
+          "name": "Warning",
+          "className": "bg-warning",
+          "columns": "col-12 col-sm-6 col-md-10 col-lg-7 col-xl-5"
+        },
+        {
+          "name": "Danger",
+          "className": "bg-danger",
+          "columns": "col-12 col-sm-6 col-md-2 col-lg-2 col-xl-7"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-munch-navbar",
+    "title": "Food Munch Navbar",
+    "category": "Responsive Design",
+    "category_label": "Practice 02 · Responsive Design",
+    "description": "A CCBP Bootstrap navbar with an accessible collapsed menu and expanded desktop navigation.",
+    "image": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/food-munch-logo-img.png",
+    "image_alt": "Food Munch restaurant logo",
+    "component_key": "food-munch-navbar",
+    "display_order": 2,
+    "active": true,
+    "technologies": [
+      "React",
+      "Bootstrap Navbar",
+      "Responsive Design"
+    ],
+    "data": {
+      "navigationAriaLabel": "Food Munch primary navigation",
+      "logoHomeAriaLabel": "Food Munch home",
+      "logoUrl": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/food-munch-logo-img.png",
+      "logoAlt": "Food Munch",
+      "openMenuLabel": "Open navigation menu",
+      "closeMenuLabel": "Close navigation menu",
+      "navigationLinks": [
+        {
+          "label": "Home",
+          "href": "#home"
+        },
+        {
+          "label": "Why choose Us?",
+          "href": "#why-choose-us"
+        },
+        {
+          "label": "Explore Our Menu",
+          "href": "#explore-our-menu"
+        },
+        {
+          "label": "Delivery & Payment",
+          "href": "#delivery-payment"
+        },
+        {
+          "label": "Follow Us",
+          "href": "#follow-us"
+        }
+      ]
+    }
+  },
+  {
+    "id": "profile-page",
+    "title": "Profile Page",
+    "category": "Profile Page",
+    "category_label": "Practice 03 · Profile Page",
+    "description": "A compact personal profile card with designation details and contact information.",
+    "image": "/profile-page-preview.svg",
+    "image_alt": "Profile page preview for Rahul",
+    "component_key": "profile-page",
+    "display_order": 3,
+    "active": true,
+    "technologies": [
+      "React",
+      "HTML5",
+      "CSS3",
+      "Google Fonts"
+    ],
+    "data": {
+      "name": "Rahul",
+      "intro": "FORENT END DEVELOPERS",
+      "designation": [
+        "i am forent end devloper",
+        "year an experience across the product",
+        "devlopment life cycles."
+      ],
+      "contact": "send my email get into work"
+    }
+  },
+  {
+    "id": "todo-list",
+    "title": "Todo List",
+    "category": "Todo List",
+    "category_label": "Practice 04 · Todo List",
+    "description": "A two-day todo list with completed tasks styled using scoped CSS selectors.",
+    "image": "/todo-list-preview.svg",
+    "image_alt": "Today and tomorrow todo list preview",
+    "component_key": "todo-list",
+    "display_order": 4,
+    "active": true,
+    "technologies": [
+      "React",
+      "HTML5",
+      "CSS3",
+      "CSS Selectors"
+    ],
+    "data": {
+      "title": "Today List",
+      "todayHeading": "Today",
+      "todayItems": [
+        {
+          "text": "Have a drink",
+          "completed": false
+        },
+        {
+          "text": "Go for a wlak",
+          "completed": true
+        },
+        {
+          "text": "Read a book",
+          "completed": false
+        },
+        {
+          "text": "Shedlow meeting with alexa",
+          "completed": true
+        }
+      ],
+      "tomorrowHeading": "Tomorrow",
+      "tomorrowItems": [
+        "leasion to the video session",
+        "Attempt partices questions",
+        "go for shopping",
+        "Reddy monthly meangely"
+      ]
+    }
+  },
+  {
+    "id": "css-type-selector",
+    "title": "CSS Type Selector",
+    "category": "CSS Selectors",
+    "category_label": "Practice 05 · CSS Selectors",
+    "description": "Three matching paragraphs demonstrate a type selector and an ID-specific dark style.",
+    "image": "/css-type-selector-preview.svg",
+    "image_alt": "CSS type selector example with styled paragraphs",
+    "component_key": "css-type-selector",
+    "display_order": 5,
+    "active": true,
+    "technologies": [
+      "React",
+      "HTML5",
+      "CSS3",
+      "CSS Selectors"
+    ],
+    "data": {
+      "paragraphs": [
+        {
+          "id": "",
+          "text": "A Paragraphs with the type Selector"
+        },
+        {
+          "id": "dark",
+          "text": "A Paragraphs with the type Selector"
+        },
+        {
+          "id": "",
+          "text": "A Paragraphs with the type Selector"
+        }
+      ]
+    }
+  },
+  {
+    "id": "specificity-practice-four",
+    "title": "Specificity Practice-4",
+    "category": "CSS Specificity",
+    "category_label": "Practice 06 · CSS Specificity",
+    "description": "A CSS specificity exercise showing class and ID selectors overriding type-selector rules.",
+    "image": "/specificity-practice-four-preview.svg",
+    "image_alt": "JavaScript CSS specificity example preview",
+    "component_key": "specificity-practice-four",
+    "display_order": 6,
+    "active": true,
+    "technologies": [
+      "React",
+      "HTML5",
+      "CSS3",
+      "CSS Specificity"
+    ],
+    "data": {
+      "heading": "JavaScript",
+      "description": "JavaScript is the programming language of the Web. JavaScript adds interactivity to the website that engages a user.",
+      "buttonLabel": "Learn"
+    }
+  },
+  {
+    "id": "custom-navbar",
+    "title": "Custom Navbar",
+    "category": "Responsive Design",
+    "category_label": "Practice 07 · Responsive Design",
+    "description": "A responsive Bootstrap navbar with a text logo, collapsible menu, and custom side spacing.",
+    "image": "/custom-navbar-preview.svg",
+    "image_alt": "Custom responsive navigation bar preview",
+    "component_key": "custom-navbar",
+    "display_order": 7,
+    "active": true,
+    "technologies": [
+      "React",
+      "Bootstrap Navbar",
+      "Responsive Design",
+      "CSS"
+    ],
+    "data": {
+      "navigationAriaLabel": "Custom primary navigation",
+      "logoHomeAriaLabel": "C. home",
+      "logoText": "C.",
+      "openMenuLabel": "Open navigation menu",
+      "closeMenuLabel": "Close navigation menu",
+      "navigationLinks": [
+        {
+          "label": "Home",
+          "href": "#home"
+        },
+        {
+          "label": "About Us",
+          "href": "#about-us"
+        },
+        {
+          "label": "Services",
+          "href": "#services"
+        },
+        {
+          "label": "Contact",
+          "href": "#contact"
+        },
+        {
+          "label": "Follow Us",
+          "href": "#follow-us"
+        }
+      ]
+    }
+  },
+  {
+    "id": "specificity-practice-five",
+    "title": "Specificity Practice-5",
+    "category": "CSS Specificity",
+    "category_label": "Practice 08 · CSS Specificity",
+    "description": "A CSS background-color exercise demonstrating how !important overrides an equally specific class rule.",
+    "image": "/specificity-practice-five-preview.svg",
+    "image_alt": "CSS important background-color specificity example",
+    "component_key": "specificity-practice-five",
+    "display_order": 8,
+    "active": true,
+    "technologies": [
+      "React",
+      "HTML5",
+      "CSS3",
+      "CSS Specificity"
+    ],
+    "data": {
+      "paragraphs": [
+        "A paragraph with the type selector",
+        "A paragraph with the class name blue-bg",
+        "A paragraph with the !important applied wins!"
+      ]
+    }
+  },
+  {
+    "id": "specificity-practice-six",
+    "title": "Specificity Practice-6",
+    "category": "CSS Specificity",
+    "category_label": "Practice 09 · CSS Specificity",
+    "description": "A heading color exercise comparing class, ID, important, and inline style precedence.",
+    "image": "/specificity-practice-six-preview.svg",
+    "image_alt": "CSS heading color specificity example",
+    "component_key": "specificity-practice-six",
+    "display_order": 9,
+    "active": true,
+    "technologies": [
+      "React",
+      "HTML5",
+      "CSS3",
+      "CSS Specificity"
+    ],
+    "data": {
+      "headings": [
+        "Make the World Wonderful",
+        "Spread the Light",
+        "Channelise your Energy"
+      ]
+    }
+  },
+  {
+    "id": "vr-website-navbar-banner",
+    "title": "VR Website Navbar & Banner Section",
+    "category": "Responsive Design",
+    "category_label": "Practice 10 · Responsive Design",
+    "description": "A VR landing page with a responsive Bootstrap navbar, centered hero heading, and View More button.",
+    "image": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png",
+    "image_alt": "Virtual reality banner background",
+    "component_key": "vr-website-navbar-banner",
+    "display_order": 10,
+    "active": true,
+    "technologies": [
+      "React",
+      "Bootstrap Navbar",
+      "Responsive Design",
+      "CSS"
+    ],
+    "data": {
+      "navigationAriaLabel": "VR Website primary navigation",
+      "logoUrl": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-logo-img.png",
+      "logoAlt": "VR",
+      "openMenuLabel": "Open navigation menu",
+      "closeMenuLabel": "Close navigation menu",
+      "currentIndicatorText": "(current )",
+      "bannerUrl": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png",
+      "bannerHeading": "The Revolution In The Victual Reality",
+      "bannerButtonLabel": "View More",
+      "navigationLinks": [
+        {
+          "label": "Home",
+          "id": "textsection1"
+        },
+        {
+          "label": "Products",
+          "id": "textsection2"
+        },
+        {
+          "label": "Renat & Bloges",
+          "id": "textsection3"
+        },
+        {
+          "label": "Delivary & Payments",
+          "id": "textsection4"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vr-website-features",
+    "title": "VR Website Features Section",
+    "category": "Responsive Design",
+    "category_label": "Practice 11 · Responsive Design",
+    "description": "A responsive six-feature VR section with centered illustrations, titles, and descriptions.",
+    "image": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/easy-connect-img.png",
+    "image_alt": "VR feature illustration for easy connection",
+    "component_key": "vr-website-features",
+    "display_order": 11,
+    "active": true,
+    "technologies": [
+      "React",
+      "Bootstrap Grid",
+      "Responsive Design",
+      "CSS"
+    ],
+    "data": {
+      "heading": "Features",
+      "features": [
+        {
+          "title": "Easy to connect",
+          "imageAlt": "Easy to connect",
+          "imageUrl": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/easy-connect-img.png",
+          "description": "Instead of viewing a screen in front of them, users are immersed and able to interact with 3D worlds."
+        },
+        {
+          "title": "VR Capability",
+          "imageAlt": "VR Capability",
+          "imageUrl": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-capability-img.png",
+          "description": "Virtual reality (VR) can create an environment similar to or completely different from the real world."
+        },
+        {
+          "title": "Video games",
+          "imageAlt": "Video games",
+          "imageUrl": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/video-games-img.png",
+          "description": "Ability to recognize hand motion, evolving interactions and gameplay in VR."
+        },
+        {
+          "title": "Interaction",
+          "imageAlt": "Interaction",
+          "imageUrl": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/interaction-img.png",
+          "description": "Interaction refers to the natural interaction between the user and the virtual scene.",
+          "emphasizedText": "natural interaction"
+        },
+        {
+          "title": "Easy to play",
+          "imageAlt": "Easy to play",
+          "imageUrl": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/easy-play-img.png",
+          "description": "In 360-degree video, the locations of viewers are fixed, viewers are limited to the angles captured by the cameras."
+        },
+        {
+          "title": "Awesome Experience",
+          "imageAlt": "Awesome Experience",
+          "imageUrl": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/experience-img.png",
+          "description": "Virtual reality (VR) is a simulated experience that can be similar to or completely different from the real world."
+        }
+      ]
+    }
+  },
+  {
+    "id": "vr-website-kit",
+    "title": "VR Website Kit Section",
+    "category": "Responsive Design",
+    "category_label": "Practice 12 · Responsive Design",
+    "description": "A responsive Bootstrap kit section featuring VR controllers, a headset, and charging cable.",
+    "image": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-kit-1-img.png",
+    "image_alt": "VR kit touch controllers",
+    "component_key": "vr-website-kit",
+    "display_order": 12,
+    "active": true,
+    "technologies": [
+      "React",
+      "Bootstrap Grid",
+      "Responsive Design",
+      "CSS"
+    ],
+    "data": {
+      "heading": "Included VR Kit",
+      "items": [
+        {
+          "image": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-kit-1-img.png",
+          "imageAlt": "Two Touch Controllers",
+          "label": "Two Touch Controllers"
+        },
+        {
+          "image": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-kit-2-img.png",
+          "imageAlt": "VR Headset",
+          "label": "VR Headset"
+        },
+        {
+          "image": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-kit-3-img.png",
+          "imageAlt": "Charging Cable",
+          "label": "Charging Cable"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vr-website-contact-us-section",
+    "title": "VR Website Contact Us Section",
+    "category": "Responsive Design",
+    "category_label": "Practice 14 · Responsive Design",
+    "description": "A responsive VR contact section with centered copy, a contact button, and breakpoint-specific image placement.",
+    "image": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-set-img.png",
+    "image_alt": "Virtual reality headset set",
+    "component_key": "vr-website-contact-us-section",
+    "display_order": 13,
+    "active": true,
+    "technologies": [
+      "React",
+      "Bootstrap Grid",
+      "Responsive Design",
+      "CSS"
+    ],
+    "data": {
+      "imageUrl": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-set-img.png",
+      "imageAlt": "Virtual reality headset",
+      "headingLines": [
+        "Virtually Anything",
+        "is Possible"
+      ],
+      "buttonLabel": "CONTACTS US"
+    }
+  },
+  {
+    "id": "vr-website-products",
+    "title": "VR Website Products Section",
+    "category": "Responsive Design",
+    "category_label": "Practice 15 · Responsive Design",
+    "description": "A responsive VR product showcase with full-height image cards, product details, and a View All button.",
+    "image": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-products-headset-img.png",
+    "image_alt": "Standalone VR headset product",
+    "component_key": "vr-website-products",
+    "display_order": 14,
+    "active": true,
+    "technologies": [
+      "React",
+      "Bootstrap Grid",
+      "Responsive Design",
+      "CSS"
+    ],
+    "data": {
+      "heading": "Products",
+      "products": [
+        {
+          "titleLines": [
+            "VR Headset"
+          ],
+          "price": "Rs 75,000",
+          "buyButtonLabel": "Buy Now",
+          "imageUrl": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-products-headset-img.png"
+        },
+        {
+          "titleLines": [
+            "VR Headset and Two",
+            "Touch Controllers"
+          ],
+          "price": "Rs 90,000",
+          "buyButtonLabel": "Buy Now",
+          "imageUrl": "https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-products-headset-with-controllers-img.png"
+        }
+      ],
+      "viewAllLabel": "View All"
+    }
+  },
+  {
+    "id": "vr-website-footer-section",
+    "title": "VR Website Footer Section",
+    "category": "Responsive Design",
+    "category_label": "Practice 16 · Responsive Design",
+    "description": "A responsive VR footer with social links, a location, contact details, and help links.",
+    "image": "/vr-website-footer-md-v1.png",
+    "image_alt": "VR Website Footer Section desktop reference",
+    "component_key": "vr-website-footer-section",
+    "display_order": 15,
+    "active": true,
+    "technologies": [
+      "React",
+      "Bootstrap Grid",
+      "Responsive Design",
+      "CSS"
+    ],
+    "data": {
+      "logoUrl": "/vr-logo-img.png",
+      "logoAlt": "VR",
+      "address": "37, Ayur Vigyan Nagar, New Delhi, India.",
+      "socialLinks": [
+        {
+          "label": "Google",
+          "href": "https://www.google.com",
+          "icon": "google"
+        },
+        {
+          "label": "Twitter",
+          "href": "https://twitter.com",
+          "icon": "twitter"
+        },
+        {
+          "label": "Instagram",
+          "href": "https://www.instagram.com",
+          "icon": "instagram"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com",
+          "icon": "linkedin"
+        }
+      ],
+      "contactHeading": "Contact Us",
+      "contactItems": [
+        {
+          "label": "vr@gmail.com",
+          "href": "mailto:vr@gmail.com",
+          "icon": "mail"
+        },
+        {
+          "label": "1234506789",
+          "href": "tel:1234506789",
+          "icon": "phone"
+        },
+        {
+          "label": "Rahul",
+          "href": "skype:rahul?chat",
+          "icon": "skype"
+        }
+      ],
+      "helpHeading": "Let Us Help You",
+      "helpLinks": [
+        {
+          "label": "100% Purchase Protection",
+          "href": "#purchase-protection"
+        },
+        {
+          "label": "Your Account",
+          "href": "#your-account"
+        },
+        {
+          "label": "Return Centre",
+          "href": "#return-centre"
+        },
+        {
+          "label": "Help",
+          "href": "#help"
+        }
+      ],
+      "copyright": "© 2020 by Rahul. Created with Bootstrap."
+    }
+  },
+  {
+    "id": "portfolio-website-navbar-banner",
+    "title": "Portfolio Website Navbar & Banner Section",
+    "category": "Responsive Design",
+    "category_label": "Practice 17 · Responsive Design",
+    "description": "A responsive portfolio landing section with a collapsible navigation bar, developer introduction, and banner illustration.",
+    "image": "/portfolio-navbar-banner/preview.jpg",
+    "image_alt": "Portfolio developer banner illustration",
+    "component_key": "portfolio-website-navbar-banner",
+    "display_order": 16,
+    "active": true,
+    "technologies": [
+      "React",
+      "Bootstrap Grid",
+      "Responsive Design",
+      "CSS"
+    ],
+    "data": {
+      "navigationAriaLabel": "Portfolio navigation",
+      "logoHomeAriaLabel": "Jenny home",
+      "logoText": "J.",
+      "openMenuLabel": "Open navigation menu",
+      "closeMenuLabel": "Close navigation menu",
+      "navigationLinks": [
+        {
+          "label": "Home",
+          "href": "#home"
+        },
+        {
+          "label": "About me",
+          "href": "#about"
+        },
+        {
+          "label": "Projects",
+          "href": "#projects"
+        },
+        {
+          "label": "Recent Blogs",
+          "href": "#blogs"
+        },
+        {
+          "label": "Testimonial",
+          "href": "#testimonials"
+        }
+      ],
+      "greeting": "Hey, I am",
+      "name": "Jenny",
+      "role": "I am a Frontend Developer & Mentor.",
+      "contactLabel": "Contact Me",
+      "contactHref": "#contact",
+      "bannerImage": "/portfolio-navbar-banner/banner.png",
+      "bannerImageAlt": "Developer at a computer with a responsive code illustration"
+    }
+  },
+  {
+    "id": "portfolio-about-me-skills",
+    "title": "Portfolio Website About Me & Skills Sections",
+    "category": "Responsive Design",
+    "category_label": "Practice 18 · Responsive Design",
+    "description": "A responsive portfolio profile with an about section and a four-item skills grid.",
+    "image": "/portfolio-sections/portfolio-about-me-img.png",
+    "image_alt": "Jenny Wilson outdoors",
+    "component_key": "portfolio-about-me-skills",
+    "display_order": 17,
+    "active": true,
+    "technologies": [
+      "React",
+      "Bootstrap Grid",
+      "Responsive Design",
+      "CSS"
+    ],
+    "data": {
+      "aboutEyebrow": "Facts",
+      "aboutTitle": "About me",
+      "aboutImage": "/portfolio-sections/portfolio-about-me-img.png",
+      "aboutImageAlt": "Jenny Wilson outdoors",
+      "aboutParagraphs": [
+        "My name is Jenny Wilson, and I am currently looking for a job in Frontend Development. I have 3 years of experience working as a Frontend Developer. I have a bachelor’s degree in Electronics and Communication. People find me to be an upbeat, self-motivated team player with excellent communication skills.",
+        "I am a dedicated person with a family of four. I enjoy reading, and the knowledge and perspective that my reading gives me have strengthened my teaching skills and presentation abilities."
+      ],
+      "skillsTitle": "Skills",
+      "skills": [
+        {
+          "name": "HTML",
+          "image": "/portfolio-sections/portfolio-skills-html-img.png"
+        },
+        {
+          "name": "CSS",
+          "image": "/portfolio-sections/portfolio-skills-css-img.png"
+        },
+        {
+          "name": "Bootstrap",
+          "image": "/portfolio-sections/portfolio-skills-bootstrap-img.png"
+        },
+        {
+          "name": "JS",
+          "image": "/portfolio-sections/portfolio-skills-js-img.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "portfolio-projects-section",
+    "title": "Portfolio Website Projects Section",
+    "category": "Responsive Design",
+    "category_label": "Practice 19 · Responsive Design",
+    "description": "A responsive portfolio projects gallery with two image-led project cards.",
+    "image": "/portfolio-sections/portfolio-project-1-img.png",
+    "image_alt": "Royal Grand Hotel project preview",
+    "component_key": "portfolio-projects-section",
+    "display_order": 18,
+    "active": true,
+    "technologies": [
+      "React",
+      "Bootstrap Grid",
+      "Responsive Design",
+      "CSS"
+    ],
+    "data": {
+      "eyebrow": "Portfolio",
+      "title": "Projects I have done",
+      "readMoreLabel": "Read More",
+      "projects": [
+        {
+          "category": "Web design",
+          "title": "Royal Grand Hotel",
+          "image": "/portfolio-sections/portfolio-project-1-img.png",
+          "imageAlt": "Royal Grand Hotel website",
+          "description": "Royal Grand Hotel is a simple static website. We can use this layout for building other websites."
+        },
+        {
+          "category": "Web design",
+          "title": "Happy Meals",
+          "image": "/portfolio-sections/portfolio-project-2-img.png",
+          "imageAlt": "Happy Meals food ordering website",
+          "description": "Happy Meals is a best-in-class food ordering page with interactive UI and simple calls to action."
+        }
+      ]
+    }
+  },
+  {
+    "id": "portfolio-services-section",
+    "title": "Portfolio Website Services Section",
+    "category": "Responsive Design",
+    "category_label": "Practice 20 · Responsive Design",
+    "description": "A responsive services section with static website, responsive design, and custom layout cards.",
+    "image": "/portfolio-sections/portfolio-web-design-img.png",
+    "image_alt": "Web design service icon",
+    "component_key": "portfolio-services-section",
+    "display_order": 19,
+    "active": true,
+    "technologies": [
+      "React",
+      "Bootstrap Grid",
+      "Responsive Design",
+      "CSS"
+    ],
+    "data": {
+      "eyebrow": "Services",
+      "title": "What I do",
+      "services": [
+        {
+          "title": "Static Websites",
+          "image": "/portfolio-sections/portfolio-web-design-img.png",
+          "description": "A static website contains web pages with fixed content. Each page is developed using HTML and CSS and displays the same information to every visitor."
+        },
+        {
+          "title": "Responsive Web design",
+          "image": "/portfolio-sections/portfolio-web-development-img.png",
+          "description": "Responsive web design suggests that design and development should respond to the user’s behaviour and environment based on screen size, platform and orientation."
+        },
+        {
+          "title": "Customisable Layouts",
+          "image": "/portfolio-sections/portfolio-customize-img.png",
+          "description": "Customisable sites are templates with set layouts. You can change photos and colours, while the layout provides a consistent starting point."
+        }
+      ]
+    }
+  },
+  {
+    "id": "portfolio-work-done-section",
+    "title": "Portfolio Website Work Done Section",
+    "category": "Responsive Design",
+    "category_label": "Practice 21 · Responsive Design",
+    "description": "A responsive achievement strip showing projects completed, code written, and hours worked.",
+    "image": "/portfolio-sections/portfolio-work-done-bg.png",
+    "image_alt": "Dark landscape background for work statistics",
+    "component_key": "portfolio-work-done-section",
+    "display_order": 20,
+    "active": true,
+    "technologies": [
+      "React",
+      "Bootstrap Grid",
+      "Responsive Design",
+      "CSS"
+    ],
+    "data": {
+      "ariaLabel": "Portfolio work completed statistics",
+      "backgroundImage": "/portfolio-sections/portfolio-work-done-bg.png",
+      "metrics": [
+        {
+          "icon": "thumb",
+          "value": "10",
+          "label": "Projects Completed"
+        },
+        {
+          "icon": "file",
+          "value": "2,800",
+          "label": "Lines of Code"
+        },
+        {
+          "icon": "clock",
+          "value": "15",
+          "label": "Hours Worked"
+        }
+      ]
+    }
+  },
+  {
+    "id": "portfolio-testimonials-section",
+    "title": "Portfolio Website Testimonials Section",
+    "category": "Responsive Design",
+    "category_label": "Practice 22 · Responsive Design",
+    "description": "A responsive testimonial card with accessible controls to move through three client reviews.",
+    "image": "/portfolio-sections/portfolio-testimonials-1-img.png",
+    "image_alt": "Gautham testimonial portrait",
+    "component_key": "portfolio-testimonials-section",
+    "display_order": 21,
+    "active": true,
+    "technologies": [
+      "React",
+      "Bootstrap Grid",
+      "Responsive Design",
+      "CSS"
+    ],
+    "data": {
+      "eyebrow": "Testimonials",
+      "title": "Our Members Says",
+      "controlsLabel": "Choose testimonial",
+      "previousLabel": "Previous testimonial",
+      "nextLabel": "Next testimonial",
+      "testimonials": [
+        {
+          "name": "Gautham",
+          "role": "Founder of CocoPay Company",
+          "image": "/portfolio-sections/portfolio-testimonials-1-img.png",
+          "imageAlt": "Gautham",
+          "quote": "Jenny is one of the best hard-working developers, and it was a pleasure working with him. Having him on the project certainly made everything run smoother."
+        },
+        {
+          "name": "Rakesh",
+          "role": "Co-developer in Veriphy Company",
+          "image": "/portfolio-sections/portfolio-testimonials-2-img.png",
+          "imageAlt": "Rakesh",
+          "quote": "Working with Jenny was an excellent experience. He is an incredibly talented developer, and what makes him stand out is his work ethic and steady approach."
+        },
+        {
+          "name": "Riya",
+          "role": "Co-founder of CocoPay Company",
+          "image": "/portfolio-sections/portfolio-testimonials-3-img.png",
+          "imageAlt": "Riya",
+          "quote": "I have worked with Jenny on two complex projects, and in both cases the projects were delivered in a timely fashion with excellent customer satisfaction."
+        }
+      ]
+    }
+  },
+  {
+    "id": "portfolio-footer-section",
+    "title": "Portfolio Website Footer Section",
+    "category": "Responsive Design",
+    "category_label": "Practice 23 · Responsive Design",
+    "description": "A responsive portfolio footer with a profile, phone number, email address, location, and copyright line.",
+    "image": "/portfolio-sections/portfolio-about-me-img.png",
+    "image_alt": "Jenny Wilson profile",
+    "component_key": "portfolio-footer-section",
+    "display_order": 22,
+    "active": true,
+    "technologies": [
+      "React",
+      "Bootstrap Grid",
+      "Responsive Design",
+      "CSS"
+    ],
+    "data": {
+      "name": "Jenny",
+      "role": "Frontend Developer",
+      "profileImage": "/portfolio-sections/portfolio-about-me-img.png",
+      "profileImageAlt": "Jenny Wilson",
+      "contacts": [
+        {
+          "heading": "Phone No.",
+          "icon": "phone",
+          "value": "9876543210",
+          "href": "tel:9876543210"
+        },
+        {
+          "heading": "E-mail",
+          "icon": "mail",
+          "value": "jenny3@gmail.com",
+          "href": "mailto:jenny3@gmail.com"
+        },
+        {
+          "heading": "Address",
+          "icon": "location",
+          "value": "17 Ayur Vigyan Nagar, New Delhi, India.",
+          "href": "https://maps.google.com/?q=17+Ayur+Vigyan+Nagar+New+Delhi+India"
+        }
+      ],
+      "copyright": "© 2020 by Jenny Wilson. Created with Bootstrap."
+    }
+  },
+  {
+    "id": "ecommerce-website-navbar-banner",
+    "title": "Ecommerce Website Navbar & Banner Section",
+    "category": "Responsive Design",
+    "category_label": "Practice 24 · Responsive Design",
+    "description": "A Fly Buy storefront with a responsive collapsible navbar and an auto-rotating, full-viewport seasonal carousel.",
+    "image": "/ecommerce-website-navbar-banner/carousel-1-wide.png",
+    "image_alt": "Fly Buy seasonal Diwali carousel banner",
+    "component_key": "ecommerce-website-navbar-banner",
+    "display_order": 23,
+    "active": true,
+    "technologies": [
+      "React",
+      "Bootstrap Navbar",
+      "Responsive Design",
+      "Carousel",
+      "CSS"
+    ],
+    "data": {
+      "navigationAriaLabel": "Fly Buy primary navigation",
+      "logoHomeAriaLabel": "Fly Buy home",
+      "logoUrl": "/ecommerce-website-navbar-banner/logo.png",
+      "logoAlt": "Fly Buy",
+      "openMenuLabel": "Open navigation menu",
+      "closeMenuLabel": "Close navigation menu",
+      "navigationLinks": [
+        {
+          "label": "Home",
+          "href": "#home"
+        },
+        {
+          "label": "Services",
+          "href": "#services"
+        },
+        {
+          "label": "Products",
+          "href": "#products"
+        },
+        {
+          "label": "Explore Deals & Offers",
+          "href": "#deals"
+        },
+        {
+          "label": "Trending Blogs",
+          "href": "#blogs"
+        }
+      ],
+      "carouselAriaLabel": "Featured Fly Buy offers",
+      "previousSlideLabel": "Previous slide",
+      "nextSlideLabel": "Next slide",
+      "slideIndicatorLabel": "Go to slide {number}",
+      "slideControlsLabel": "Choose a banner",
+      "carouselSlides": [
+        {
+          "id": "diwali",
+          "alt": "Happy Diwali — Festival of Lights",
+          "smallImage": "/ecommerce-website-navbar-banner/carousel-1-small.png",
+          "wideImage": "/ecommerce-website-navbar-banner/carousel-1-wide.png"
+        },
+        {
+          "id": "sankranti",
+          "alt": "Happy Makar Sankranti",
+          "smallImage": "/ecommerce-website-navbar-banner/carousel-2-small.png",
+          "wideImage": "/ecommerce-website-navbar-banner/carousel-2-wide.png"
+        },
+        {
+          "id": "christmas",
+          "alt": "Merry Christmas and Happy New Year",
+          "smallImage": "/ecommerce-website-navbar-banner/carousel-3-small.png",
+          "wideImage": "/ecommerce-website-navbar-banner/carousel-3-wide.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "responsive-features-section",
+    "title": "Features Section",
+    "description": "Six responsive feature entries explaining vectors, forms, effects, CSS, responsive layouts, and reusable libraries.",
+    "image": "/responsive-course-projects/features/awsome-features-1-img.png",
+    "data": {
+      "title": "Features that make Design simply awesome",
+      "subtitle": "Not sure if Design is for you? Check out a few of the key features!",
+      "items": [
+        {
+          "title": "Vectors",
+          "description": "Use SVGs that always stay crisp and you can change the color as you go.",
+          "image": "/responsive-course-projects/features/awsome-features-1-img.png"
+        },
+        {
+          "title": "Forms",
+          "description": "Add forms to collect your visitors' emails directly with Mailchimp.",
+          "image": "/responsive-course-projects/features/awsome-features-2-img.png"
+        },
+        {
+          "title": "Effects",
+          "description": "Add some fancy elements to your designs by adding interactive scroll effects or animations.",
+          "image": "/responsive-course-projects/features/awsome-features-3-img.png"
+        },
+        {
+          "title": "Paste CSS",
+          "description": "Copy CSS from Photoshop or Sketch or even your text editor and paste it.",
+          "image": "/responsive-course-projects/features/awsome-features-4-img.png"
+        },
+        {
+          "title": "Responsive from the start",
+          "description": "Have full control over mobile layouts. Move the breakpoints where it's best for the content.",
+          "image": "/responsive-course-projects/features/awsome-features-5-img.png"
+        },
+        {
+          "title": "Library",
+          "description": "Choose from presets or create your own collections of elements to re-use later in your projects.",
+          "image": "/responsive-course-projects/features/awsome-features-6-img.png"
+        }
+      ]
+    },
+    "category": "Responsive Design",
+    "category_label": "Practice 25 · Responsive Design",
+    "component_key": "responsive-features-section",
+    "display_order": 24,
+    "active": true,
+    "technologies": [
+      "React",
+      "Responsive Design",
+      "CSS Grid",
+      "Local Assets"
+    ]
+  },
+  {
+    "id": "responsive-tools-section",
+    "title": "Tools Section",
+    "description": "Two responsive design-tool features with alternating imagery and explanatory copy.",
+    "image": "/responsive-course-projects/tools/features-1-img.png",
+    "data": {
+      "ariaLabel": "Design tools",
+      "features": [
+        {
+          "title": "A visual drag and drop editor",
+          "description": "We see web design visually, therefore it makes sense to produce design in a visual way. Yet you can always access the code if needed. Use a drag and drop editor with the ability to see web fonts. With drag and drop, you can rearrange the structure and elements of your layout.",
+          "image": "/responsive-course-projects/tools/features-1-img.png",
+          "imageAlt": "People using a visual design editor"
+        },
+        {
+          "title": "Animations & Effects",
+          "description": "Add Behavior animations to create simple element loading animations and spice up your design. You can choose from the ones we have or use your own code. An animation effect is a special visual or sound effect added to a text or an object on a slide or chart.",
+          "image": "/responsive-course-projects/tools/features-2-img.png",
+          "imageAlt": "Creative tools and devices used for animation and effects"
+        }
+      ]
+    },
+    "category": "Responsive Design",
+    "category_label": "Practice 26 · Responsive Design",
+    "component_key": "responsive-tools-section",
+    "display_order": 25,
+    "active": true,
+    "technologies": [
+      "React",
+      "Responsive Design",
+      "CSS Grid",
+      "Local Assets"
+    ]
+  },
+  {
+    "id": "responsive-design-deliver-section",
+    "title": "Design and Deliver Section",
+    "description": "A responsive two-feature section about browser-based design and publishing faster.",
+    "image": "/responsive-course-projects/design-deliver/design-deliver-1-img.png",
+    "data": {
+      "ariaLabel": "Design and deliver",
+      "features": [
+        {
+          "title": "Design in the browser",
+          "description": "A design is a plan or specification for the construction of an object or system or for the implementation of an activity or process. The verb to design expresses the process of developing a design.",
+          "image": "/responsive-course-projects/design-deliver/design-deliver-1-img.png",
+          "imageAlt": "Desktop monitor showing a browser design canvas"
+        },
+        {
+          "title": "Deliver Faster",
+          "description": "Publish responsive pages with your own domain name or export your work to host it yourself. is great for decision making, prototyping and publishing single page websites.",
+          "image": "/responsive-course-projects/design-deliver/design-deliver-2-img.png",
+          "imageAlt": "Open delivery box with design tools"
+        }
+      ]
+    },
+    "category": "Responsive Design",
+    "category_label": "Practice 27 · Responsive Design",
+    "component_key": "responsive-design-deliver-section",
+    "display_order": 26,
+    "active": true,
+    "technologies": [
+      "React",
+      "Responsive Design",
+      "CSS Grid",
+      "Local Assets"
+    ]
+  },
+  {
+    "id": "responsive-logos-section",
+    "title": "Logos Section",
+    "description": "A responsive brand strip showing companies whose logos are used or featured.",
+    "image": "/responsive-course-projects/logos/used-seen-slack-img.png",
+    "data": {
+      "title": "Used by and seen on",
+      "logos": [
+        {
+          "name": "Slack",
+          "alt": "Slack logo",
+          "image": "/responsive-course-projects/logos/used-seen-slack-img.png"
+        },
+        {
+          "name": "Netflix",
+          "alt": "Netflix logo",
+          "image": "/responsive-course-projects/logos/used-seen-netflix-img.png"
+        },
+        {
+          "name": "Fitbit",
+          "alt": "Fitbit logo",
+          "image": "/responsive-course-projects/logos/used-seen-fitbit-img.png"
+        },
+        {
+          "name": "Google",
+          "alt": "Google logo",
+          "image": "/responsive-course-projects/logos/used-seen-google-img.png"
+        },
+        {
+          "name": "Airbnb",
+          "alt": "Airbnb logo",
+          "image": "/responsive-course-projects/logos/used-seen-airbnb-img.png"
+        },
+        {
+          "name": "Uber",
+          "alt": "Uber logo",
+          "image": "/responsive-course-projects/logos/used-seen-uber-img.png"
+        }
+      ]
+    },
+    "category": "Responsive Design",
+    "category_label": "Practice 28 · Responsive Design",
+    "component_key": "responsive-logos-section",
+    "display_order": 27,
+    "active": true,
+    "technologies": [
+      "React",
+      "Responsive Design",
+      "CSS Grid",
+      "Local Assets"
+    ]
+  },
+  {
+    "id": "design-tool-navbar-banner",
+    "title": "Navbar & Banner Section",
+    "description": "A design-tool landing page with responsive navigation, marbled hero background, and Sign Up call to action.",
+    "image": "/responsive-course-projects/landing-navbar-banner/design-logo.png",
+    "data": {
+      "logoUrl": "/responsive-course-projects/landing-navbar-banner/design-logo.png",
+      "logoAlt": "Design",
+      "backgroundImage": "/responsive-course-projects/landing-navbar-banner/background.png",
+      "headline": "The most flexible web design tool",
+      "description": "We've done it carefully and simply, Combined with the ingredients makes for beautiful landings. It is the tool you need to speed up your design process.",
+      "ctaLabel": "Sign Up",
+      "ctaHref": "#design-home",
+      "navigationLinks": [
+        {
+          "label": "Home",
+          "href": "#design-home"
+        },
+        {
+          "label": "Features",
+          "href": "#design-home"
+        },
+        {
+          "label": "Pricing",
+          "href": "#design-home"
+        },
+        {
+          "label": "Blog",
+          "href": "#design-home"
+        },
+        {
+          "label": "Contacts",
+          "href": "#design-home"
+        }
+      ]
+    },
+    "category": "Responsive Design",
+    "category_label": "Practice 29 · Responsive Design",
+    "component_key": "design-tool-navbar-banner",
+    "display_order": 28,
+    "active": true,
+    "technologies": [
+      "React",
+      "Responsive Design",
+      "CSS Grid",
+      "Local Assets"
+    ]
+  },
+  {
+    "id": "ecommerce-footer-section",
+    "title": "Ecommerce Website Footer Section",
+    "description": "A responsive Fly Buy footer with social links, address, useful navigation groups, and copyright.",
+    "image": "/ecommerce-website-navbar-banner/logo.png",
+    "data": {
+      "brandLabel": "Fly Buy contact information",
+      "logoUrl": "/ecommerce-website-navbar-banner/logo.png",
+      "logoAlt": "Fly Buy",
+      "address": "37, Ayur Vigyan Nagar, New Delhi, India.",
+      "socialLinks": [
+        {
+          "label": "Google",
+          "glyph": "G"
+        },
+        {
+          "label": "Twitter",
+          "glyph": "X"
+        },
+        {
+          "label": "Instagram",
+          "glyph": "◎"
+        },
+        {
+          "label": "LinkedIn",
+          "glyph": "in"
+        }
+      ],
+      "columns": [
+        {
+          "title": "Get to know us",
+          "links": [
+            {
+              "label": "About us"
+            },
+            {
+              "label": "Career"
+            },
+            {
+              "label": "Press Releases"
+            },
+            {
+              "label": "Gift a smile"
+            }
+          ]
+        },
+        {
+          "title": "Contact with Us",
+          "links": [
+            {
+              "label": "Facebook"
+            },
+            {
+              "label": "Twitter"
+            },
+            {
+              "label": "Instagram"
+            }
+          ]
+        },
+        {
+          "title": "Let Us Help You",
+          "links": [
+            {
+              "label": "100% Purchase Protection"
+            },
+            {
+              "label": "Your Account"
+            },
+            {
+              "label": "Return Centre"
+            },
+            {
+              "label": "Help"
+            }
+          ]
+        }
+      ],
+      "copyright": "© 2020 by Rahul. Created with Bootstrap."
+    },
+    "category": "Responsive Design",
+    "category_label": "Practice 30 · Responsive Design",
+    "component_key": "ecommerce-footer-section",
+    "display_order": 29,
+    "active": true,
+    "technologies": [
+      "React",
+      "Responsive Design",
+      "CSS Grid",
+      "Local Assets"
+    ]
+  },
+  {
+    "id": "ecommerce-contact-us-section",
+    "title": "Ecommerce Website Contact Us Section",
+    "description": "A centered contact call to action on a pale background with a contrasting outline button.",
+    "image": "/ecommerce-website-navbar-banner/logo.png",
+    "data": {
+      "title": "Let us Join Together",
+      "buttonLabel": "CONTACT US",
+      "href": "#ecommerce-contact"
+    },
+    "category": "Responsive Design",
+    "category_label": "Practice 31 · Responsive Design",
+    "component_key": "ecommerce-contact-us-section",
+    "display_order": 30,
+    "active": true,
+    "technologies": [
+      "React",
+      "Responsive Design",
+      "CSS Grid",
+      "Local Assets"
+    ]
+  },
+  {
+    "id": "ecommerce-explore-section",
+    "title": "Ecommerce Website Explore Section",
+    "description": "A responsive ecommerce deals layout with electronics, appliance, and accessory cards.",
+    "image": "/responsive-course-projects/ecommerce-explore/ecommerce-explore-mamba-watch-img.png",
+    "data": {
+      "title": "Explore Deals & Offers",
+      "cards": [
+        {
+          "title": "Up to 80% Off | Electronics & Gadgets",
+          "linkLabel": "See All Deals",
+          "kind": "products",
+          "items": [
+            {
+              "title": "Smart Watch",
+              "image": "/responsive-course-projects/ecommerce-explore/ecommerce-explore-mamba-watch-img.png"
+            },
+            {
+              "title": "Cameras",
+              "image": "/responsive-course-projects/ecommerce-explore/ecommerce-explore-camera-img.png"
+            },
+            {
+              "title": "Sports & Fitness",
+              "image": "/responsive-course-projects/ecommerce-explore/ecommerce-explore-sport-and-fitness-img.png"
+            },
+            {
+              "title": "Earphones",
+              "image": "/responsive-course-projects/ecommerce-explore/ecommerce-explore-ear-phones-pink-img.png"
+            }
+          ]
+        },
+        {
+          "title": "Festive Offers TVs & appliances",
+          "linkLabel": "See All Deals",
+          "kind": "hero",
+          "image": "/responsive-course-projects/ecommerce-explore/ecommerce-explore-tv-img.png",
+          "imageAlt": "Television and sound bar"
+        },
+        {
+          "title": "Under Rs 4000 | Friendly Accessories",
+          "linkLabel": "See All Deals",
+          "kind": "products",
+          "items": [
+            {
+              "title": "Tablet",
+              "image": "/responsive-course-projects/ecommerce-explore/ecommerce-explore-tablet-device-img.png"
+            },
+            {
+              "title": "PlayStation",
+              "image": "/responsive-course-projects/ecommerce-explore/ecommerce-explore-joy-stick-img.png"
+            },
+            {
+              "title": "Speakers",
+              "image": "/responsive-course-projects/ecommerce-explore/ecommerce-explore-speakers-big-img.png"
+            },
+            {
+              "title": "Virtual Reality Set",
+              "image": "/responsive-course-projects/ecommerce-explore/ecommerce-explore-vr-set-img.png"
+            }
+          ]
+        }
+      ]
+    },
+    "category": "Responsive Design",
+    "category_label": "Practice 32 · Responsive Design",
+    "component_key": "ecommerce-explore-section",
+    "display_order": 31,
+    "active": true,
+    "technologies": [
+      "React",
+      "Responsive Design",
+      "CSS Grid",
+      "Local Assets"
+    ]
+  },
+  {
+    "id": "ecommerce-trending-blogs-section",
+    "title": "Ecommerce Website Trending Blogs Section",
+    "description": "Two editorial cards featuring trending fountain pen and productivity articles.",
+    "image": "/responsive-course-projects/ecommerce-trending-blogs/ecommerce-trending-blogs-1-img.png",
+    "data": {
+      "title": "Trending Blogs",
+      "blogs": [
+        {
+          "category": "Fountain Pens",
+          "title": "Guide to Fountain Pen Nibs",
+          "description": "If you’re having trouble with a fountain pen whether it’s scratchy, too dry, or too wet...",
+          "image": "/responsive-course-projects/ecommerce-trending-blogs/ecommerce-trending-blogs-1-img.png",
+          "imageAlt": "Fountain pens, paper, and writing tools",
+          "readMoreLabel": "READ MORE"
+        },
+        {
+          "category": "Productivity",
+          "title": "How to Craft a Better Todo List",
+          "description": "A well-crafted Todo list acts as a guiding light for your day. It helps you overcome...",
+          "image": "/responsive-course-projects/ecommerce-trending-blogs/ecommerce-trending-blogs-2-img.png",
+          "imageAlt": "Hand writing in a planner",
+          "readMoreLabel": "READ MORE"
+        }
+      ]
+    },
+    "category": "Responsive Design",
+    "category_label": "Practice 33 · Responsive Design",
+    "component_key": "ecommerce-trending-blogs-section",
+    "display_order": 32,
+    "active": true,
+    "technologies": [
+      "React",
+      "Responsive Design",
+      "CSS Grid",
+      "Local Assets"
+    ]
+  },
+  {
+    "id": "ecommerce-offers-section",
+    "title": "Ecommerce Website Offers Section",
+    "description": "A colorful new-year offer banner with appliance imagery and SBI card discount details.",
+    "image": "/responsive-course-projects/ecommerce-offers/ecommerce-offers-special-img.png",
+    "data": {
+      "eyebrow": "BEST NEW YEAR SPECIAL OFFERS",
+      "title": "Best time to buy. Save upto 70% cash",
+      "discount": "10% INSTANT DISCOUNT*",
+      "caption": "with SBI Credit Cards*",
+      "badgeImage": "/responsive-course-projects/ecommerce-offers/ecommerce-offers-special-img.png",
+      "badgeAlt": "70% off special offer shop now",
+      "appliancesImage": "/responsive-course-projects/ecommerce-offers/ecommerce-offers-appliances-img.png",
+      "appliancesAlt": "Appliances and electronics offer collage",
+      "creditImage": "/responsive-course-projects/ecommerce-offers/ecommerce-offers-credit-card-img.png",
+      "creditAlt": "SBI Card — Make life simple"
+    },
+    "category": "Responsive Design",
+    "category_label": "Practice 34 · Responsive Design",
+    "component_key": "ecommerce-offers-section",
+    "display_order": 33,
+    "active": true,
+    "technologies": [
+      "React",
+      "Responsive Design",
+      "CSS Grid",
+      "Local Assets"
+    ]
+  },
+  {
+    "id": "ecommerce-products-section",
+    "title": "Ecommerce Website Products Section",
+    "description": "Headphones and laptop product cards with responsive product details modals.",
+    "image": "/responsive-course-projects/ecommerce-products/ecommerce-products-headphones-bg.png",
+    "data": {
+      "title": "Our Products",
+      "offersLabel": "See All Offers",
+      "offersHref": "#ecommerce-offers",
+      "closeLabel": "Close product details",
+      "buyLabel": "Buy Now",
+      "products": [
+        {
+          "id": "headphones",
+          "title": "Smart Headphones",
+          "description": "Headphones with Deep Bass, sound.touch...",
+          "image": "/responsive-course-projects/ecommerce-products/ecommerce-products-headphones-bg.png",
+          "viewDetailsLabel": "View Details",
+          "modalTitle": "Sony WH-1000XM4 Noise Cancelling Headphones",
+          "modalDescription": "Get Best Smart Headphones Prices Online in India. Select from the best range of Headphones from most popular brands...",
+          "features": [
+            "Voice assistant: Alexa, Google Assistant & Siri",
+            "Smart listening: Ambient sound with the best noise cancellation",
+            "Long battery life: A single charge provides 30 hours of playtime",
+            "Quick charging: Charge for 10 min for 5 hours play back",
+            "Touch controls: Change the track with your fingertip"
+          ]
+        },
+        {
+          "id": "laptops",
+          "title": "Laptops",
+          "description": "Explore vast selection of Laptops...",
+          "image": "/responsive-course-projects/ecommerce-products/ecommerce-products-laptops-bg.png",
+          "viewDetailsLabel": "View Details",
+          "modalTitle": "Inspiron 14 5490 core i5 Laptop",
+          "modalDescription": "Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...",
+          "features": [
+            "Performance: Core i5 3rd Gen, 2.6 Ghz, 4 GB RAM",
+            "Storage: 500 GB HDD, SATA, 7200 RPM",
+            "Battery: Li-Ion, 6 Cell",
+            "Design: 14.0 Inches, 1366 X 768, 2.07 Kg, 34 Mm Thick"
+          ]
+        }
+      ]
+    },
+    "category": "Responsive Design",
+    "category_label": "Practice 35 · Responsive Design",
+    "component_key": "ecommerce-products-section",
+    "display_order": 34,
+    "active": true,
+    "technologies": [
+      "React",
+      "Responsive Design",
+      "CSS Grid",
+      "Local Assets"
+    ]
+  },
+  {
+    "id": "ecommerce-services-section",
+    "title": "Ecommerce Website Services Section",
+    "description": "A responsive services section with delivery, money-back, and round-the-clock support cards.",
+    "image": "/responsive-course-projects/ecommerce-services/ecommerce-services-delivery-img.png",
+    "data": {
+      "title": "Our Services",
+      "description": "Most online stores offer lower prices. Online shopping makes price comparison simpler and quicker. It is very convenient to shop from where you are located. It saves you the cost of driving to stores, as well as parking fees.",
+      "services": [
+        {
+          "title": "Fast and Free Delivery",
+          "description": "Fast, free, and convenient delivery choices on millions of items.",
+          "image": "/responsive-course-projects/ecommerce-services/ecommerce-services-delivery-img.png"
+        },
+        {
+          "title": "100% Money back guarantee",
+          "description": "This is probably the most popular guarantee in the world.",
+          "image": "/responsive-course-projects/ecommerce-services/ecommerce-services-money-back-img.png"
+        },
+        {
+          "title": "Online Support 24/7",
+          "description": "Our Online Support will provide you with many useful functions, valuable information, tips.",
+          "image": "/responsive-course-projects/ecommerce-services/ecommerce-services-24-by-7-support-img.png"
+        }
+      ]
+    },
+    "category": "Responsive Design",
+    "category_label": "Practice 36 · Responsive Design",
+    "component_key": "ecommerce-services-section",
+    "display_order": 35,
+    "active": true,
+    "technologies": [
+      "React",
+      "Responsive Design",
+      "CSS Grid",
+      "Local Assets"
+    ]
+  }
+]

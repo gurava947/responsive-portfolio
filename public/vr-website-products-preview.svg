@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-label="VR Website Products Section project preview">
+  <rect width="720" height="480" fill="#fff"/>
+  <text x="28" y="48" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1f2933">Products</text>
+  <g>
+    <rect x="28" y="67" width="318" height="344" fill="#111b2b"/>
+    <path d="M118 226c0-54 33-82 83-82s83 28 83 82v36c-19 36-147 36-166 0z" fill="#dbe5ee" stroke="#60768c" stroke-width="8"/>
+    <path d="M141 229c11-22 30-33 60-33s49 11 60 33v25c-30 20-90 20-120 0z" fill="#50667c"/>
+    <text x="47" y="326" font-family="Arial, sans-serif" font-size="25" font-weight="500" fill="#fff">VR Headset</text>
+    <text x="47" y="355" font-family="Arial, sans-serif" font-size="18" fill="#fff">Rs 75,000</text>
+    <rect x="47" y="368" width="105" height="32" rx="5" fill="none" stroke="#fff"/>
+    <text x="99" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#fff">Buy Now</text>
+  </g>
+  <g>
+    <rect x="374" y="67" width="318" height="344" fill="#111b2b"/>
+    <path d="M436 226c0-54 33-82 83-82s83 28 83 82v36c-19 36-147 36-166 0z" fill="#dbe5ee" stroke="#60768c" stroke-width="8"/>
+    <path d="M459 229c11-22 30-33 60-33s49 11 60 33v25c-30 20-90 20-120 0z" fill="#50667c"/>
+    <text x="393" y="318" font-family="Arial, sans-serif" font-size="23" font-weight="500" fill="#fff">VR Headset and Two</text>
+    <text x="393" y="345" font-family="Arial, sans-serif" font-size="23" font-weight="500" fill="#fff">Touch Controllers</text>
+    <text x="393" y="371" font-family="Arial, sans-serif" font-size="18" fill="#fff">Rs 90,000</text>
+  </g>
+  <rect x="572" y="430" width="120" height="40" rx="5" fill="#1754a1"/>
+  <text x="632" y="456" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#fff">View All</text>
+</svg>

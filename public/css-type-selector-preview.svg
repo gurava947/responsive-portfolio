@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-label="CSS Type Selector project preview">
+  <rect width="720" height="480" fill="#f3e1cd"/>
+  <path d="M0 160h720v160H0z" fill="#000"/>
+  <g font-family="Arial, sans-serif" font-size="22">
+    <text x="25" y="75" fill="#212529">A Paragraphs with the type Selector</text>
+    <text x="25" y="235" fill="#fff">A Paragraphs with the type Selector</text>
+    <text x="25" y="395" fill="#212529">A Paragraphs with the type Selector</text>
+  </g>
+</svg>

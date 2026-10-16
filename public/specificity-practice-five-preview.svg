@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-label="Specificity Practice-5 project preview">
+  <rect width="720" height="480" fill="#fff"/>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#212529">
+    <text x="8" y="27">A paragraph with the type selector</text>
+    <rect y="40" width="720" height="24" fill="#1e90ff"/>
+    <text x="8" y="58">A paragraph with the class name blue-bg</text>
+    <rect y="80" width="720" height="24" fill="#ffa500"/>
+    <text x="8" y="98">A paragraph with the !important applied wins!</text>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+.vr-contact-us-demo .VRWebsite-background-section {
+  background-color: #222b36;
+}
+
+.vr-contact-us-demo .VRWebsite-heading {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.vr-contact-us-demo .castome-button {
+  height: 40px;
+  width: 120px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}

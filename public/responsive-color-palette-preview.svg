@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
+  <rect width="960" height="600" fill="#fff"/>
+  <text x="480" y="78" fill="#212529" font-family="Arial,sans-serif" font-size="34" text-anchor="middle">Responsive Color Palette</text>
+  <g font-family="Arial,sans-serif" font-size="22" fill="#fff">
+    <rect x="40" y="115" width="280" height="112" fill="#007bff"/><text x="60" y="180">Primary</text>
+    <rect x="340" y="115" width="280" height="112" fill="#6c757d"/><text x="360" y="180">Secondary</text>
+    <rect x="640" y="115" width="280" height="112" fill="#28a745"/><text x="660" y="180">Success</text>
+    <rect x="40" y="250" width="280" height="112" fill="#17a2b8"/><text x="60" y="315">Info</text>
+    <rect x="340" y="250" width="280" height="112" fill="#ffc107"/><text x="360" y="315">Warning</text>
+    <rect x="640" y="250" width="280" height="112" fill="#dc3545"/><text x="660" y="315">Danger</text>
+  </g>
+</svg>

@@ -1,0 +1,519 @@
+.certificate-showcase {
+  min-height: calc(100vh - 78px);
+  padding: clamp(34px, 6vw, 76px) 0;
+  color: var(--ink);
+  background: var(--paper);
+  transition: color 280ms ease, background-color 280ms ease;
+}
+
+.certificate-container {
+  display: grid;
+  max-width: 1180px;
+  gap: clamp(28px, 4vw, 48px);
+  padding-right: clamp(16px, 2vw, 24px);
+  padding-left: clamp(16px, 2vw, 24px);
+}
+
+.certificate-surface {
+  min-width: 0;
+  border: 1px solid #dfe8d9;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(28, 39, 31, 0.06);
+  transition: transform 220ms ease, border-color 240ms ease, background-color 280ms ease, box-shadow 220ms ease;
+}
+
+.certificate-surface:hover {
+  transform: translateY(-2px);
+  border-color: #bfd29f;
+  box-shadow: 0 13px 30px rgba(28, 39, 31, 0.1);
+}
+
+.certificate-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.9fr);
+  align-items: center;
+  gap: clamp(24px, 5vw, 62px);
+  padding: clamp(20px, 4vw, 46px);
+}
+
+.certificate-header-copy,
+.certificate-image-link {
+  min-width: 0;
+}
+
+.certificate-back-link {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 18px;
+  color: #496c16;
+  font-size: 0.83rem;
+  font-weight: 750;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: color 180ms ease;
+}
+
+.certificate-back-link:hover {
+  color: #30480e;
+}
+
+.certificate-eyebrow {
+  margin: 0 0 10px;
+  color: #668238;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.certificate-header h1 {
+  max-width: 720px;
+  margin: 0;
+  color: var(--ink);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(2rem, 4.3vw, 3.5rem);
+  letter-spacing: -0.06em;
+  line-height: 1.04;
+  overflow-wrap: anywhere;
+}
+
+.certificate-header-description {
+  margin: 15px 0 12px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.certificate-id {
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+  font-weight: 750;
+  overflow-wrap: anywhere;
+}
+
+.certificate-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.certificate-action {
+  display: inline-flex;
+  min-width: 44px;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 9px 13px;
+  border: 1px solid #cbd8bd;
+  border-radius: 999px;
+  background: #fff;
+  color: #354723;
+  font: inherit;
+  font-size: 0.79rem;
+  font-weight: 750;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 180ms ease, color 180ms ease, background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.certificate-action:hover,
+.certificate-action:focus-visible {
+  transform: translateY(-1px);
+  border-color: #789449;
+  background: #f1f7e9;
+  color: #263b17;
+}
+
+.certificate-action-primary {
+  border-color: #354723;
+  background: #354723;
+  color: #fff;
+}
+
+.certificate-action-primary:hover,
+.certificate-action-primary:focus-visible {
+  border-color: #263b17;
+  background: #263b17;
+  color: #fff;
+}
+
+.certificate-action-icon {
+  width: 17px;
+  height: 17px;
+  flex: 0 0 17px;
+}
+
+.certificate-action-status {
+  min-height: 1.25em;
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.certificate-view-link {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 8px;
+  margin-top: 3px;
+  color: #496c16;
+  font-size: 0.84rem;
+  font-weight: 750;
+  line-height: 1.45;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+  transition: color 180ms ease;
+}
+
+.certificate-view-link .certificate-action-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.certificate-view-link:hover {
+  color: #30480e;
+}
+
+.certificate-image-link {
+  display: block;
+  padding: 10px;
+  border: 1px solid #e5e9e1;
+  border-radius: 14px;
+  background: #f8f9f6;
+  line-height: 0;
+}
+
+.certificate-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1.62;
+  border-radius: 8px;
+  background: #fff;
+  object-fit: contain;
+}
+
+.certificate-section {
+  min-width: 0;
+}
+
+.certificate-section-heading {
+  max-width: 800px;
+  margin-bottom: 18px;
+}
+
+.certificate-section-heading h2,
+.alumni-recognition h3 {
+  margin: 0;
+  color: var(--ink);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(1.5rem, 3vw, 2.15rem);
+  font-weight: 700;
+  letter-spacing: -0.045em;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+}
+
+.certificate-performance {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid #c9952e;
+  border-radius: 18px;
+  background: #d6a740;
+  color: #5c3b08;
+  box-shadow: 0 10px 24px rgba(169, 111, 17, 0.16), inset 0 1px rgba(255, 255, 255, 0.55);
+}
+
+.certificate-performance-value {
+  display: grid;
+  min-width: 0;
+  min-height: 104px;
+  grid-template-columns: 26px minmax(0, 1fr);
+  align-content: center;
+  align-items: center;
+  gap: 7px;
+  padding: 18px clamp(10px, 2vw, 24px);
+  background: linear-gradient(145deg, #fff7d6 0%, #f5d77c 55%, #edc15c 100%);
+  text-align: left;
+}
+
+.certificate-performance-icon {
+  width: 21px;
+  height: 21px;
+  grid-row: 1 / span 2;
+  color: #79500d;
+}
+
+.certificate-performance-value span,
+.certificate-performance-value strong {
+  grid-column: 2;
+}
+
+.certificate-performance-highlight {
+  background: linear-gradient(145deg, #fff2bc 0%, #edc15c 55%, #d99a28 100%);
+}
+
+.certificate-performance-value span {
+  color: #79500d;
+  font-size: 0.75rem;
+  font-weight: 750;
+  line-height: 1.35;
+}
+
+.certificate-performance-value strong {
+  color: #5c3b08;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(1.3rem, 2.7vw, 2rem);
+  letter-spacing: -0.045em;
+  line-height: 1.1;
+  overflow-wrap: anywhere;
+}
+
+.certificate-topics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.certificate-topics li {
+  display: flex;
+  min-width: 0;
+  min-height: 54px;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 15px;
+  border: 1px solid #dfe8d9;
+  border-radius: 12px;
+  background: #fff;
+  color: #475444;
+  font-size: 0.88rem;
+  font-weight: 650;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.certificate-topic-icon {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  color: #668238;
+}
+
+.alumni-recognition {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  align-items: center;
+  gap: clamp(20px, 4vw, 40px);
+  margin-top: clamp(18px, 3vw, 28px);
+  padding: clamp(20px, 3vw, 30px);
+  background: #f7faef;
+}
+
+.alumni-recognition-copy {
+  min-width: 0;
+}
+
+.alumni-recognition h3 {
+  font-size: clamp(1.25rem, 2.4vw, 1.7rem);
+}
+
+.alumni-recognition-copy > p:not(.certificate-eyebrow) {
+  margin: 9px 0 4px;
+  color: var(--ink);
+  font-size: 0.97rem;
+  font-weight: 750;
+  line-height: 1.45;
+}
+
+.alumni-recognition-copy > span {
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.certificate-alumni-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 190px;
+  padding: 8px;
+  border: 1px solid #e1e8d9;
+  border-radius: 12px;
+  background: #fff;
+  object-fit: contain;
+}
+
+.theme-dark .certificate-surface {
+  border-color: #3a453b;
+  background: #202822;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+.theme-dark .certificate-surface:hover {
+  border-color: #5b7047;
+  box-shadow: 0 13px 30px rgba(0, 0, 0, 0.28);
+}
+
+.theme-dark .certificate-back-link,
+.theme-dark .certificate-eyebrow,
+.theme-dark .certificate-view-link {
+  color: #c7e38d;
+}
+
+.theme-dark .certificate-back-link:hover,
+.theme-dark .certificate-view-link:hover {
+  color: #e4f5ca;
+}
+
+.theme-dark .certificate-image-link,
+.theme-dark .certificate-alumni-image {
+  border-color: #e5e9e1;
+  background: #fff;
+}
+
+.theme-dark .alumni-recognition {
+  background: #202822;
+}
+
+.theme-dark .certificate-topics li,
+.theme-dark .certificate-action {
+  border-color: #485544;
+  background: #273329;
+  color: #dce8d4;
+}
+
+.theme-dark .certificate-topic-icon {
+  color: #c7e38d;
+}
+
+.theme-dark .certificate-action:hover,
+.theme-dark .certificate-action:focus-visible {
+  border-color: #c7e38d;
+  background: #35452f;
+  color: #fff;
+}
+
+.theme-dark .certificate-action-primary {
+  border-color: #c7e38d;
+  background: #c7e38d;
+  color: #17221d;
+}
+
+.theme-dark .certificate-action-primary:hover,
+.theme-dark .certificate-action-primary:focus-visible {
+  border-color: #e4f5ca;
+  background: #e4f5ca;
+  color: #17221d;
+}
+
+@media (min-width: 1200px) {
+  .certificate-container {
+    gap: 52px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .certificate-header {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.85fr);
+    gap: 22px;
+    padding: clamp(20px, 3vw, 30px);
+  }
+
+  .certificate-topics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .certificate-performance {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 767.98px) {
+  .certificate-header {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .certificate-image-link {
+    grid-row: 1;
+  }
+
+  .certificate-performance {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .certificate-performance-value {
+    min-height: 88px;
+  }
+
+  .alumni-recognition {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .certificate-showcase {
+    padding: 32px 0;
+  }
+
+  .certificate-header {
+    gap: 18px;
+    padding: 17px;
+  }
+
+  .certificate-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .certificate-action {
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .certificate-action-primary {
+    grid-column: 1 / -1;
+  }
+
+  .certificate-performance-value {
+    min-height: 68px;
+  }
+
+  .certificate-topics {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .certificate-topics li {
+    min-height: 48px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .certificate-showcase *,
+  .certificate-showcase *::before,
+  .certificate-showcase *::after {
+    scroll-behavior: auto;
+    transition-duration: 0.01ms;
+    animation-duration: 0.01ms;
+    animation-iteration-count: 1;
+  }
+}

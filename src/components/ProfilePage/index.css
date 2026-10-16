@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.profile-page-demo {
+  min-height: 100vh;
+  color: #0967d2;
+  background: #fff;
+}
+
+.profile-page-demo .profile-container {
+  padding: 10px;
+  background-color: #f5f9fd;
+}
+
+.profile-page-demo h1 {
+  color: #03449e;
+  font-family: "Roboto";
+  font-size: 32px;
+}
+
+.profile-page-demo p {
+  color: #0967d2;
+  font-family: "Bree Serif";
+  font-size: 24px;
+}
+
+.profile-page-demo .designation-details-container {
+  margin-bottom: 10px;
+  padding: 15px;
+  background-color: #d0efff;
+}
+
+.profile-page-demo .designation-details {
+  color: #47a3f3;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+.profile-page-demo .contact-info-container {
+  padding: 10px;
+  background-color: #03254c;
+}
+
+.profile-page-demo .contact-info {
+  color: #9aa5b1;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: italic;
+}

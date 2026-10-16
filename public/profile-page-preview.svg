@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
+  <rect width="960" height="600" fill="#fff"/>
+  <rect width="960" height="410" fill="#f5f9fd"/>
+  <text x="44" y="92" fill="#03449e" font-family="Arial,sans-serif" font-size="48" font-weight="700">Rahul</text>
+  <text x="44" y="142" fill="#0967d2" font-family="Georgia,serif" font-size="34">FORENT END DEVELOPERS</text>
+  <rect x="30" y="180" width="900" height="200" fill="#d0efff"/>
+  <text x="58" y="235" fill="#47a3f3" font-family="Arial,sans-serif" font-size="28">i am forent end devloper</text>
+  <text x="58" y="278" fill="#47a3f3" font-family="Arial,sans-serif" font-size="28">year an experience across the product</text>
+  <text x="58" y="321" fill="#47a3f3" font-family="Arial,sans-serif" font-size="28">devlopment life cycles.</text>
+  <rect y="410" width="960" height="190" fill="#03254c"/>
+  <text x="32" y="462" fill="#9aa5b1" font-family="Arial,sans-serif" font-size="22" font-style="italic">send my email get into work</text>
+</svg>

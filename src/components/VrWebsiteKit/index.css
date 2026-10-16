@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+.vr-kit-demo {
+  background-color: #f9fbfe;
+}
+
+.vr-kit-demo .VRAR-background-section {
+  background-color: #f9fbfe;
+}
+
+.vr-kit-demo .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.vr-kit-demo .row {
+  --bs-gutter-x: 30px;
+}
+
+.vr-kit-demo .VRAR-heading {
+  color: #323f4b;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.vr-kit-demo .VRAR-image {
+  width: 190px;
+  height: 230px;
+}
+
+.vr-kit-demo .VRAR-text {
+  color: #1f2933;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.vr-kit-demo .vr {
+  display: block;
+  align-self: auto;
+  min-height: 0;
+  background-color: transparent;
+  border-radius: 13px;
+  opacity: 1;
+}
+
+.vr-kit-demo .col-12.vr {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .vr-kit-demo .col-md-4.vr {
+    width: 33.33333333%;
+  }
+}

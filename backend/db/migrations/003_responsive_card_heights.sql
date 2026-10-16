@@ -1,0 +1,1 @@
+-- migrate.js adds bounded mobile, tablet, and desktop image heights transactionally.

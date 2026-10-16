@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.vr-website-demo {
+  min-height: 100vh;
+  color: #323f4b;
+  font-family: "Roboto", sans-serif;
+}
+
+.vr-website-demo .vr-navbar {
+  background-color: #fff;
+}
+
+.vr-website-demo .image {
+  height: 40px;
+  width: 50px;
+}
+
+.vr-website-demo #textsection1,
+.vr-website-demo #textsection2,
+.vr-website-demo #textsection3,
+.vr-website-demo #textsection4 {
+  color: #323f4b;
+  font-size: 20px;
+}
+
+.vr-website-demo #navbarNavAltMarkup .nav-link {
+  color: #323f4b;
+}
+
+.vr-website-demo .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.vr-website-demo .Background-section {
+  height: 100vh;
+  background-size: cover;
+}
+
+.vr-website-demo .Vr-heading {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.vr-website-demo .Vr-button {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #1a2137;
+}
+
+@media (min-width: 992px) {
+  .vr-website-demo #navbarNavAltMarkup .navbar-nav {
+    margin-left: auto;
+  }
+}

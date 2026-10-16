@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-label="Specificity Practice-4 project preview">
+  <rect width="720" height="480" fill="#d3d3d3"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="360" y="116" fill="#00f" font-size="30" font-weight="700">JavaScript</text>
+    <text x="360" y="194" fill="#212529" font-size="20">JavaScript is the programming language of the Web.</text>
+    <text x="360" y="224" fill="#212529" font-size="20">JavaScript adds interactivity to the website that engages a user.</text>
+    <rect x="310" y="270" width="100" height="30" rx="5" fill="#ffa500"/>
+    <text x="360" y="291" fill="#212529" font-size="16">Learn</text>
+  </g>
+</svg>

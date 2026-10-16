@@ -1,0 +1,227 @@
+{
+  "source": "URLs supplied by user",
+  "assets": [
+    {
+      "section": "design-deliver",
+      "file": "public/responsive-course-projects/design-deliver/design-deliver-1-img.png",
+      "bytes": 15062,
+      "content_type": "image/png"
+    },
+    {
+      "section": "design-deliver",
+      "file": "public/responsive-course-projects/design-deliver/design-deliver-2-img.png",
+      "bytes": 16219,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-explore",
+      "file": "public/responsive-course-projects/ecommerce-explore/ecommerce-explore-camera-img.png",
+      "bytes": 46065,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-explore",
+      "file": "public/responsive-course-projects/ecommerce-explore/ecommerce-explore-ear-phones-pink-img.png",
+      "bytes": 36760,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-explore",
+      "file": "public/responsive-course-projects/ecommerce-explore/ecommerce-explore-joy-stick-img.png",
+      "bytes": 34918,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-explore",
+      "file": "public/responsive-course-projects/ecommerce-explore/ecommerce-explore-mamba-watch-img.png",
+      "bytes": 45909,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-explore",
+      "file": "public/responsive-course-projects/ecommerce-explore/ecommerce-explore-speakers-big-img.png",
+      "bytes": 35853,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-explore",
+      "file": "public/responsive-course-projects/ecommerce-explore/ecommerce-explore-sport-and-fitness-img.png",
+      "bytes": 126798,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-explore",
+      "file": "public/responsive-course-projects/ecommerce-explore/ecommerce-explore-tablet-device-img.png",
+      "bytes": 77707,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-explore",
+      "file": "public/responsive-course-projects/ecommerce-explore/ecommerce-explore-tv-img.png",
+      "bytes": 429728,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-explore",
+      "file": "public/responsive-course-projects/ecommerce-explore/ecommerce-explore-vr-set-img.png",
+      "bytes": 17949,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-offers",
+      "file": "public/responsive-course-projects/ecommerce-offers/ecommerce-offers-appliances-img.png",
+      "bytes": 138913,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-offers",
+      "file": "public/responsive-course-projects/ecommerce-offers/ecommerce-offers-credit-card-img.png",
+      "bytes": 27792,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-offers",
+      "file": "public/responsive-course-projects/ecommerce-offers/ecommerce-offers-special-img.png",
+      "bytes": 84216,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-products",
+      "file": "public/responsive-course-projects/ecommerce-products/ecommerce-products-headphones-bg.png",
+      "bytes": 650182,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-products",
+      "file": "public/responsive-course-projects/ecommerce-products/ecommerce-products-laptops-bg.png",
+      "bytes": 439628,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-services",
+      "file": "public/responsive-course-projects/ecommerce-services/ecommerce-services-24-by-7-support-img.png",
+      "bytes": 4300,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-services",
+      "file": "public/responsive-course-projects/ecommerce-services/ecommerce-services-delivery-img.png",
+      "bytes": 2736,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-services",
+      "file": "public/responsive-course-projects/ecommerce-services/ecommerce-services-money-back-img.png",
+      "bytes": 3179,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-trending-blogs",
+      "file": "public/responsive-course-projects/ecommerce-trending-blogs/ecommerce-trending-blogs-1-img.png",
+      "bytes": 344547,
+      "content_type": "image/png"
+    },
+    {
+      "section": "ecommerce-trending-blogs",
+      "file": "public/responsive-course-projects/ecommerce-trending-blogs/ecommerce-trending-blogs-2-img.png",
+      "bytes": 396696,
+      "content_type": "image/png"
+    },
+    {
+      "section": "features",
+      "file": "public/responsive-course-projects/features/awsome-features-1-img.png",
+      "bytes": 9607,
+      "content_type": "image/png"
+    },
+    {
+      "section": "features",
+      "file": "public/responsive-course-projects/features/awsome-features-2-img.png",
+      "bytes": 7868,
+      "content_type": "image/png"
+    },
+    {
+      "section": "features",
+      "file": "public/responsive-course-projects/features/awsome-features-3-img.png",
+      "bytes": 10028,
+      "content_type": "image/png"
+    },
+    {
+      "section": "features",
+      "file": "public/responsive-course-projects/features/awsome-features-4-img.png",
+      "bytes": 10426,
+      "content_type": "image/png"
+    },
+    {
+      "section": "features",
+      "file": "public/responsive-course-projects/features/awsome-features-5-img.png",
+      "bytes": 7740,
+      "content_type": "image/png"
+    },
+    {
+      "section": "features",
+      "file": "public/responsive-course-projects/features/awsome-features-6-img.png",
+      "bytes": 10479,
+      "content_type": "image/png"
+    },
+    {
+      "section": "landing-navbar-banner",
+      "file": "public/responsive-course-projects/landing-navbar-banner/background.png",
+      "bytes": 335329,
+      "content_type": "image/png"
+    },
+    {
+      "section": "landing-navbar-banner",
+      "file": "public/responsive-course-projects/landing-navbar-banner/design-logo.png",
+      "bytes": 5505,
+      "content_type": "image/png"
+    },
+    {
+      "section": "logos",
+      "file": "public/responsive-course-projects/logos/used-seen-airbnb-img.png",
+      "bytes": 2299,
+      "content_type": "image/png"
+    },
+    {
+      "section": "logos",
+      "file": "public/responsive-course-projects/logos/used-seen-fitbit-img.png",
+      "bytes": 1943,
+      "content_type": "image/png"
+    },
+    {
+      "section": "logos",
+      "file": "public/responsive-course-projects/logos/used-seen-google-img.png",
+      "bytes": 2344,
+      "content_type": "image/png"
+    },
+    {
+      "section": "logos",
+      "file": "public/responsive-course-projects/logos/used-seen-netflix-img.png",
+      "bytes": 1425,
+      "content_type": "image/png"
+    },
+    {
+      "section": "logos",
+      "file": "public/responsive-course-projects/logos/used-seen-slack-img.png",
+      "bytes": 2543,
+      "content_type": "image/png"
+    },
+    {
+      "section": "logos",
+      "file": "public/responsive-course-projects/logos/used-seen-uber-img.png",
+      "bytes": 2884,
+      "content_type": "image/png"
+    },
+    {
+      "section": "tools",
+      "file": "public/responsive-course-projects/tools/features-1-img.png",
+      "bytes": 157076,
+      "content_type": "image/png"
+    },
+    {
+      "section": "tools",
+      "file": "public/responsive-course-projects/tools/features-2-img.png",
+      "bytes": 811441,
+      "content_type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-label="VR Website Kit Section project preview">
+  <rect width="720" height="480" fill="#f9fbfe"/>
+  <text x="36" y="58" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#323f4b">Included VR Kit</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(120 92)">
+      <rect width="145" height="300" rx="13" fill="#fff" stroke="#e3e9ef"/>
+      <rect x="22" y="22" width="101" height="180" rx="8" fill="#edf3f8"/>
+      <path d="M46 103c8-26 46-26 54 0v20c-8 22-46 22-54 0z" fill="#d0dce8" stroke="#65798c" stroke-width="4"/>
+      <text x="72" y="236" font-size="14" fill="#1f2933">Two Touch</text>
+      <text x="72" y="256" font-size="14" fill="#1f2933">Controllers</text>
+    </g>
+    <g transform="translate(287 92)">
+      <rect width="145" height="300" rx="13" fill="#fff" stroke="#e3e9ef"/>
+      <rect x="22" y="22" width="101" height="180" rx="8" fill="#edf3f8"/>
+      <path d="M38 113c0-23 14-39 34-39h2c20 0 34 16 34 39v14H38z" fill="#c9d8e6" stroke="#65798c" stroke-width="4"/>
+      <circle cx="63" cy="113" r="13" fill="#eff5fa" stroke="#65798c" stroke-width="3"/>
+      <circle cx="84" cy="113" r="13" fill="#eff5fa" stroke="#65798c" stroke-width="3"/>
+      <text x="72" y="246" font-size="14" fill="#1f2933">VR Headset</text>
+    </g>
+    <g transform="translate(454 92)">
+      <rect width="145" height="300" rx="13" fill="#fff" stroke="#e3e9ef"/>
+      <rect x="22" y="22" width="101" height="180" rx="8" fill="#edf3f8"/>
+      <path d="M72 82v66c0 19 28 19 28 0v-23m-28-17c0 20-29 20-29 0V91m29 17c0 20 29 20 29 0" fill="none" stroke="#65798c" stroke-linecap="round" stroke-width="6"/>
+      <text x="72" y="246" font-size="14" fill="#1f2933">Charging Cable</text>
+    </g>
+  </g>
+</svg>

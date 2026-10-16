@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.css-type-selector-demo p {
+  margin: 0;
+  padding: 25px;
+  background-color: #f3e1cd;
+  font-family: "Open Sans";
+  font-size: 22px;
+}
+
+.css-type-selector-demo #dark {
+  color: white;
+  background-color: black;
+}

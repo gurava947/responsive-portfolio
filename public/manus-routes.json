@@ -1,0 +1,8 @@
+{
+  "routes": [
+    { "path": "/", "title": "Practicefolio portfolio" },
+    { "path": "/projects/:id", "title": "Project details" },
+    { "path": "/projects/:id?preview=1", "title": "Responsive project preview" },
+    { "path": "/certificates/responsive-website", "title": "Responsive website certificate" }
+  ]
+}

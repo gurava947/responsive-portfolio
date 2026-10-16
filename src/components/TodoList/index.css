@@ -1,0 +1,25 @@
+.todo-list-demo .todo-list-container {
+  padding: 10px;
+  background-color: #f6f5f1;
+}
+
+.todo-list-demo h1 {
+  font-family: "Roboto";
+  font-size: 30px;
+}
+
+.todo-list-demo #todayHeading {
+  color: blue;
+}
+
+.todo-list-demo li {
+  padding: 10px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.todo-list-demo .completed {
+  color: grey;
+  font-style: italic;
+  text-decoration: line-through;
+}

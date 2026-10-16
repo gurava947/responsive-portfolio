@@ -1,0 +1,7 @@
+.specificity-practice-five .blue-bg {
+  background-color: dodgerblue;
+}
+
+.specificity-practice-five .orange-bg {
+  background-color: orange !important;
+}

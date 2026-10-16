@@ -1,0 +1,377 @@
+{
+  "categories": [
+    {
+      "slug": "responsive-design",
+      "label": "Responsive Design",
+      "sort_order": 1
+    },
+    {
+      "slug": "profile-page",
+      "label": "Profile Page",
+      "sort_order": 2
+    },
+    {
+      "slug": "todo-list",
+      "label": "Todo List",
+      "sort_order": 3
+    },
+    {
+      "slug": "css-selectors",
+      "label": "CSS Selectors",
+      "sort_order": 4
+    },
+    {
+      "slug": "css-specificity",
+      "label": "CSS Specificity",
+      "sort_order": 5
+    }
+  ],
+  "navigation": [
+    {
+      "slot": "certificate",
+      "label": "Certificate",
+      "href": "/certificates/responsive-website",
+      "sort_order": 1
+    },
+    {
+      "slot": "projects",
+      "label": "Projects",
+      "href": "/#projects",
+      "sort_order": 2
+    },
+    {
+      "slot": "contact",
+      "label": "Let’s talk",
+      "href": "mailto:hello@example.com",
+      "sort_order": 3
+    }
+  ],
+  "devices": [
+    {
+      "id": "extra-small",
+      "label": "Extra Small",
+      "range": "<576px",
+      "width": 360,
+      "height": 640,
+      "frameBorder": 7
+    },
+    {
+      "id": "small",
+      "label": "Small",
+      "range": "≥576px",
+      "width": 576,
+      "height": 800,
+      "frameBorder": 7
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "range": "≥768px",
+      "width": 768,
+      "height": 1024,
+      "frameBorder": 6
+    },
+    {
+      "id": "large",
+      "label": "Large",
+      "range": "≥992px",
+      "width": 992,
+      "height": 900,
+      "frameBorder": 2
+    },
+    {
+      "id": "extra-large",
+      "label": "Extra Large",
+      "range": "≥1200px",
+      "width": 1200,
+      "height": 900,
+      "frameBorder": 2
+    }
+  ],
+  "theme": {
+    "defaults": {
+      "mode": "light",
+      "cardOpacity": 14,
+      "blur": 24,
+      "borderOpacity": 20,
+      "shadowIntensity": 25,
+      "radius": 24,
+      "animationIntensity": "smooth",
+      "hoverGlow": true,
+      "cursorSpotlight": true,
+      "cardTilt": true,
+      "animatedBlobs": true,
+      "reducedMotion": false,
+      "transition": "240ms ease"
+    },
+    "presets": {
+      "dark": {
+        "primary": "#8b5cf6",
+        "secondary": "#22d3ee",
+        "accent": "#f472b6",
+        "background": "#070b14"
+      },
+      "light": {
+        "primary": "#6d5ce8",
+        "secondary": "#0891b2",
+        "accent": "#db2777",
+        "background": "#f1f5fb"
+      }
+    }
+  },
+  "settings": {
+    "brand": {
+      "prefix": "Practice",
+      "separator": ".",
+      "suffix": "folio"
+    },
+    "navigation": {
+      "profileInitial": "G",
+      "profileAria": "G for Guravva",
+      "certificateAria": "Build Your Own Responsive Website certificate on CCBP",
+      "certificateTitle": "Build Your Own Responsive Website — View certificate on CCBP",
+      "projectsAria": "View all projects",
+      "switchTheme": "Switch to {theme} mode",
+      "themeNames": {
+        "light": "light",
+        "dark": "dark"
+      },
+      "modeLabels": {
+        "light": "Light mode",
+        "dark": "Dark mode"
+      }
+    },
+    "imageFallback": {
+      "title": "Project image",
+      "category": "Project preview",
+      "caption": "A project in practice"
+    },
+    "status": {
+      "loadingLabel": "Loading portfolio content",
+      "retry": "Retry",
+      "back": "Back",
+      "dataUnavailable": "Portfolio settings, certificate, or preview breakpoints are missing."
+    },
+    "profile": {
+      "defaultValues": {
+        "name": "K Guravaiah",
+        "age": "24",
+        "mobile": "7702310461",
+        "email": "guravak947@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/guravaiah-mern-stack-developer",
+        "github": "https://github.com/gurava947",
+        "links": []
+      },
+      "eyebrow": "Profile",
+      "editTitle": "Edit profile",
+      "edit": "Edit",
+      "close": "Close Guravva profile",
+      "labels": {
+        "age": "Age",
+        "mobile": "Mobile",
+        "email": "Email",
+        "linkedin": "LinkedIn",
+        "github": "GitHub"
+      },
+      "placeholders": {
+        "age": "[age]",
+        "mobile": "[mobile number]",
+        "email": "guravak947@gmail.com",
+        "linkedin": "[LinkedIn URL]",
+        "github": "[GitHub URL]"
+      },
+      "formLabels": {
+        "name": "Full name",
+        "age": "Age",
+        "mobile": "Mobile",
+        "email": "Email",
+        "linkedin": "LinkedIn URL",
+        "github": "GitHub URL"
+      },
+      "customLinks": "Additional custom links",
+      "linkLabel": "Link label",
+      "linkUrl": "Link URL",
+      "removeLink": "Remove link {number}",
+      "noLinks": "No additional links yet.",
+      "emptyLinks": "No additional links. Add one if you’d like.",
+      "addLink": "Add link",
+      "save": "Save",
+      "cancel": "Cancel",
+      "saved": "Profile saved",
+      "invalidEmail": "Enter a valid email address.",
+      "invalidUrl": "Enter a valid HTTP or HTTPS URL.",
+      "linkPairRequired": "Provide both a link label and URL.",
+      "correctFields": "Please correct the highlighted fields.",
+      "saveFailed": "Unable to save profile in this browser session."
+    },
+    "home": {
+      "projectCount": {
+        "single": "project",
+        "plural": "projects"
+      },
+      "hero": {
+        "eyebrow": "A collection of front-end explorations",
+        "title": "Small practices.",
+        "titleAccent": "Big possibilities.",
+        "description": "A growing collection of web experiences, built one idea at a time. Take a look around.",
+        "action": "Explore the work",
+        "countAria": "{count} {label} in the portfolio",
+        "backCard": "DESIGN",
+        "kicker": "THE PRACTICE FILES",
+        "caption": "ideas in motion",
+        "note": "Curiosity, captured.",
+        "footnote": "EST. 2025 · OPEN FOR IDEAS"
+      },
+      "achievement": {
+        "ariaLabel": "Project collection and Responsive Website achievement",
+        "kicker": "CERTIFICATION / COMPLETED",
+        "title": "Responsive web projects",
+        "titleAccent": "in this collection.",
+        "countDescription": "in this responsive-web shelf",
+        "performanceAria": "Build Your Own Responsive Website Course Exam performance: Grade A, 10 grade points, 250 out of 250, 100 percent",
+        "performanceLabel": "COURSE EXAM PERFORMANCE",
+        "scoreSuffix": "score",
+        "pointsSuffix": "grade points",
+        "certificateAction": "View Certificate on CCBP"
+      },
+      "projects": {
+        "eyebrow": "Selected work · {start}—{end}",
+        "title": "The project shelf",
+        "note": "Hover to peek inside. Click to explore."
+      },
+      "filters": {
+        "all": "All projects",
+        "searchLabel": "Search projects",
+        "searchPlaceholder": "Search projects, technologies...",
+        "categoryLabel": "Filter by category"
+      },
+      "card": {
+        "viewProject": "View Project",
+        "viewProjectAria": "View {title} project"
+      },
+      "empty": {
+        "title": "No matching projects",
+        "description": "Try another title, technology, or category."
+      },
+      "footer": {
+        "note": "Made with curiosity and a little bit of code.",
+        "backToTop": "Back to top ↑"
+      }
+    },
+    "detail": {
+      "back": "← Back to all projects",
+      "technologiesAria": "Technologies used",
+      "projectIndex": "PROJECT / {index}",
+      "openProject": "Open project",
+      "exploreMore": "Explore more projects",
+      "backToProjects": "Back to projects"
+    },
+    "preview": {
+      "breakpointGroup": "Project preview breakpoint",
+      "deviceAria": "{label} ({range}) device preview",
+      "ariaLabel": "{title} responsive preview",
+      "toolbarLabel": "Responsive preview",
+      "frameTitle": "{title} project preview"
+    },
+    "certificate": {
+      "back": "Back to My App / Projects",
+      "certificateId": "Certificate ID:",
+      "actionsAria": "Certificate actions",
+      "download": "Download Certificate",
+      "share": "Share",
+      "shareOnTwitter": "Share certificate on Twitter",
+      "twitter": "Twitter",
+      "shareAria": "Share certificate",
+      "copy": "Copy",
+      "copyAria": "Copy certificate link",
+      "copied": "Copied",
+      "viewOnProvider": "View Certificate on CCBP",
+      "openCertificate": "Open {title} certificate",
+      "performanceEyebrow": "Course exam performance",
+      "trainersEyebrow": "About the trainers",
+      "overviewEyebrow": "Course overview",
+      "topicsTitle": "Key Topics Covered",
+      "clipboardUnavailable": "Clipboard access is unavailable in this browser.",
+      "copyDenied": "The browser did not allow copying the link.",
+      "copyFailed": "Could not copy the certificate link: {error}"
+    }
+  },
+  "certificates": [
+    {
+      "slug": "responsive-website",
+      "route": "/certificates/responsive-website",
+      "courseTitle": "Build Your Own Responsive Website",
+      "certificateId": "RAGAIXEQCX",
+      "certificateUrl": "https://certificates.ccbp.in/intensive/responsive-website?id=RAGAIXEQCX",
+      "certificatePdfUrl": "https://media-content.ccbp.in/certificates/share/RAGAIXEQCX.pdf",
+      "shareMessage": "I've completed the Build Your Own Responsive Website course.",
+      "eyebrow": "Course",
+      "performanceTitle": "Build Your Own Responsive Website Course Exam",
+      "performanceAria": "Course Exam Name: Build Your Own Responsive Website Course Exam; Grade: A; Grade Points: 10; Score: 250 out of 250; Percentage: 100 percent",
+      "trainersTitle": "Your Trainers are Alumni of",
+      "trainersSubheading": "Learn from best alumni",
+      "trainersDescription": "Trainer and alumni recognition from CCBP Intensive.",
+      "performance": [
+        {
+          "key": "grade",
+          "label": "Grade",
+          "value": "A",
+          "icon": "grade"
+        },
+        {
+          "key": "gradePoints",
+          "label": "Grade Points",
+          "value": "10",
+          "icon": "points"
+        },
+        {
+          "key": "score",
+          "label": "Score",
+          "value": "250/250",
+          "icon": "score"
+        },
+        {
+          "key": "percentage",
+          "label": "Percentage",
+          "value": "100%",
+          "icon": "percentage"
+        }
+      ],
+      "topics": [
+        {
+          "label": "Bootstrap Grid System",
+          "icon": "layout"
+        },
+        {
+          "label": "CSS Specificity",
+          "icon": "code"
+        },
+        {
+          "label": "CSS Cascading and Inheritance",
+          "icon": "components"
+        },
+        {
+          "label": "Bootstrap Flex Utilities",
+          "icon": "box"
+        }
+      ],
+      "assets": [
+        {
+          "role": "certificate",
+          "url": "https://media-content.ccbp.in/certificates/share/RAGAIXEQCX.png",
+          "alt_text": "Build Your Own Responsive Website certificate issued by CCBP"
+        },
+        {
+          "role": "alumni",
+          "url": "https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/intensive/learn-the-best-from-the-alumni/Alumni_2x.png?auto=format,compress&q=80",
+          "alt_text": "Official NxtWave Intensive alumni branding"
+        },
+        {
+          "role": "brand",
+          "url": "/nxtwave-certificate-card.png",
+          "alt_text": "NxtWave"
+        }
+      ]
+    }
+  ]
+}

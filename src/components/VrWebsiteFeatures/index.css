@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.vr-features-demo {
+  min-height: 100vh;
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.vr-features-demo .vr-features-section {
+  padding-top: 24px;
+  padding-bottom: 32px;
+  background-color: #fff;
+}
+
+.vr-features-demo .vr-features-heading {
+  margin: 0 0 18px;
+  color: #1f2933;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.vr-features-demo .vr-feature-card {
+  padding: 0 12px;
+  margin-bottom: 32px;
+}
+
+.vr-features-demo .vr-feature-image {
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 8px;
+  object-fit: contain;
+}
+
+.vr-features-demo .vr-feature-title {
+  margin: 0 0 8px;
+  color: #1f2933;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.vr-features-demo .vr-feature-description {
+  margin: 0;
+  color: #7b8794;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+@media (min-width: 768px) {
+  .vr-features-demo .vr-features-section {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .vr-features-demo .vr-feature-card {
+    margin-bottom: 36px;
+  }
+}

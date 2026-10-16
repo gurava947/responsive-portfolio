@@ -1,0 +1,178 @@
+.food-munch-demo {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.food-munch-demo .food-munch-navbar {
+  box-sizing: border-box;
+  align-items: flex-start;
+  padding: 24px 24px 0;
+  background-color: #343a40 !important;
+}
+
+.food-munch-demo .food-munch-navbar-container {
+  box-sizing: border-box;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.food-munch-demo .food-munch-brand {
+  display: block;
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.food-munch-demo .food-munch-logo {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.food-munch-demo .food-munch-toggler {
+  display: inline-flex;
+  width: 80px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  margin: 14px 8px 0 auto;
+  padding: 12px;
+  border: 2px solid #4b5055;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.food-munch-demo .food-munch-toggler:focus {
+  box-shadow: 0 0 0 2px rgb(255 255 255 / 20%);
+}
+
+.food-munch-demo .food-munch-toggler-icon {
+  width: 42px;
+  height: 32px;
+  background-size: 42px 32px;
+}
+
+.food-munch-demo .food-munch-collapse {
+  flex-basis: 100%;
+}
+
+.food-munch-demo .food-munch-nav-list {
+  gap: 0;
+  padding: 12px 8px 22px;
+}
+
+.food-munch-demo .food-munch-nav-link {
+  display: block;
+  padding: 17px 0 !important;
+  color: #f8f9fa;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.food-munch-demo .food-munch-nav-link:hover,
+.food-munch-demo .food-munch-nav-link:focus-visible {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+@media (max-width: 575.98px) {
+  .food-munch-demo .food-munch-navbar {
+    padding: 20px 16px 0;
+  }
+
+  .food-munch-demo .food-munch-logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .food-munch-demo .food-munch-toggler {
+    width: 58px;
+    height: 48px;
+    margin: 10px 0 0 auto;
+    padding: 8px;
+  }
+
+  .food-munch-demo .food-munch-toggler-icon {
+    width: 30px;
+    height: 24px;
+    background-size: 30px 24px;
+  }
+
+  .food-munch-demo .food-munch-nav-list {
+    padding: 10px 0 18px;
+  }
+
+  .food-munch-demo .food-munch-nav-link {
+    padding: 12px 0 !important;
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .food-munch-demo .food-munch-navbar {
+    padding: 32px 32px 0;
+  }
+
+  .food-munch-demo .food-munch-toggler {
+    width: clamp(80px, 15.6vw, 112px);
+    height: clamp(64px, 11.2vw, 80px);
+    margin: 6px 0 0 auto;
+  }
+
+  .food-munch-demo .food-munch-toggler-icon {
+    width: 48px;
+    height: 36px;
+    background-size: 48px 36px;
+  }
+
+  .food-munch-demo .food-munch-nav-list {
+    padding: 18px 0 28px;
+  }
+
+  .food-munch-demo .food-munch-nav-link {
+    padding: 17px 0 !important;
+    font-size: 32px;
+    line-height: 1.3;
+  }
+}
+
+@media (min-width: 992px) {
+  .food-munch-demo .food-munch-navbar {
+    min-height: 56px;
+    align-items: center;
+    padding: 8px 12px;
+  }
+
+  .food-munch-demo .food-munch-navbar-container {
+    align-items: center;
+  }
+
+  .food-munch-demo .food-munch-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .food-munch-demo .food-munch-collapse {
+    flex-basis: auto;
+  }
+
+  .food-munch-demo .food-munch-nav-list {
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    padding: 0;
+  }
+
+  .food-munch-demo .food-munch-nav-link {
+    padding: 8px 0 !important;
+    font-size: 12px;
+    line-height: 1.25;
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,216 @@
+.portfolio-about-skills-demo,
+.portfolio-projects-demo,
+.portfolio-services-demo,
+.portfolio-work-demo,
+.portfolio-testimonials-demo,
+.portfolio-footer-demo {
+  min-height: 100vh;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.portfolio-content-inner,
+.portfolio-about-inner {
+  width: min(100%, 1160px);
+  margin: 0 auto;
+  padding: 52px 22px;
+}
+
+.portfolio-section-heading { margin-bottom: 28px; }
+.portfolio-section-heading p {
+  margin: 0 0 12px;
+  color: #cced00;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.portfolio-section-heading h2 {
+  margin: 0;
+  color: #f5f7fa;
+  font-size: clamp(2rem, 6vw, 3.3rem);
+  font-weight: 700;
+  line-height: 1.18;
+}
+
+/* About Me & Skills */
+.portfolio-about-skills-demo { color: #9aa5b1; background: #1f2933; }
+.portfolio-about-block { background: #323f4b; }
+.portfolio-about-layout { display: grid; grid-template-columns: 1fr; gap: 24px; }
+.portfolio-about-photo {
+  width: 100%;
+  max-height: 420px;
+  display: block;
+  object-fit: cover;
+  object-position: center 35%;
+  border-radius: 10px;
+}
+.portfolio-about-copy p {
+  margin: 0 0 22px;
+  color: #9aa5b1;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+.portfolio-about-copy p:last-child { margin-bottom: 0; }
+.portfolio-skills-title {
+  margin: 0 0 22px;
+  color: #cced00;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.portfolio-skills-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; }
+.portfolio-skill-card {
+  min-height: 156px;
+  padding: 18px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 9px;
+  background: #323f4b;
+  text-align: center;
+}
+.portfolio-skill-card img { width: 76px; height: 76px; object-fit: contain; }
+.portfolio-skill-card h3 { margin: 0; color: #f5f7fa; font-size: 1.15rem; font-weight: 700; }
+
+/* Projects */
+.portfolio-projects-demo { color: #9aa5b1; background: #3e4c59; }
+.portfolio-project-cards { display: grid; grid-template-columns: 1fr; gap: 24px; }
+.portfolio-project-card { min-width: 0; overflow: hidden; border-radius: 12px; background: #323f4b; }
+.portfolio-project-card > img { width: 100%; height: 230px; display: block; object-fit: cover; }
+.portfolio-project-card-body { padding: 22px 22px 26px; }
+.portfolio-project-category { margin: 0 0 14px; color: #9aa5b1; font-size: 1rem; }
+.portfolio-project-card h3 { margin: 0 0 12px; color: #ffffff; font-size: 1.6rem; font-weight: 500; }
+.portfolio-project-description { margin: 0 0 18px; color: #9aa5b1; font-size: 1.05rem; line-height: 1.7; }
+.portfolio-project-card a { color: #cced00; font-size: 1.05rem; font-weight: 700; text-decoration: none; }
+.portfolio-project-card a span { padding-left: 6px; }
+.portfolio-project-card a:focus-visible,
+.portfolio-project-card a:hover { color: #e2ff30; text-decoration: underline; }
+
+/* Services */
+.portfolio-services-demo { color: #9aa5b1; background: #52606d; }
+.portfolio-services-grid { display: grid; grid-template-columns: 1fr; gap: 20px; align-items: start; }
+.portfolio-service-card {
+  min-width: 0;
+  min-height: 260px;
+  padding: 24px;
+  border-radius: 12px;
+  background: #323f4b;
+  box-shadow: 0 12px 24px rgba(15,23,42,.1);
+}
+.portfolio-service-card img { width: 76px; height: 76px; margin-bottom: 16px; object-fit: contain; }
+.portfolio-service-card h3 { margin: 0 0 12px; color: #f5f7fa; font-size: 1.4rem; font-weight: 700; }
+.portfolio-service-card p { margin: 0; color: #9aa5b1; font-size: 1.05rem; line-height: 1.7; }
+
+/* Work Done */
+.portfolio-work-demo { min-height: 70vh; background: #0d2436; }
+.portfolio-work-section {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  padding: 54px 22px;
+  color: #ffffff;
+  background-image: linear-gradient(rgba(13,36,54,.52),rgba(13,36,54,.62)),url('/portfolio-sections/portfolio-work-done-bg.png');
+  background-position: center;
+  background-size: cover;
+}
+.portfolio-work-inner { width: min(100%,1160px); margin: 0 auto; display: grid; grid-template-columns: 1fr; gap: 44px; }
+.portfolio-work-metric { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.portfolio-work-metric svg { width: 78px; height: 78px; color: #ffffff; }
+.portfolio-work-rule { width: 92px; margin: 18px 0 22px; border-top: 1px solid rgba(255,255,255,.75); }
+.portfolio-work-metric strong { color: #ffffff; font-size: 3.4rem; line-height: 1.05; }
+.portfolio-work-metric p { max-width: 230px; margin: 14px 0 0; color: #ffffff; font-size: 1.25rem; line-height: 1.5; }
+
+/* Testimonials */
+.portfolio-testimonials-demo { color: #9aa5b1; background: #1f2933; }
+.portfolio-testimonials-section { max-width: 900px; }
+.portfolio-testimonial-card {
+  min-height: 380px;
+  padding: 28px 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background: #323f4b;
+  text-align: center;
+}
+.portfolio-testimonial-card img { width: 102px; height: 102px; margin-bottom: 18px; border-radius: 50%; object-fit: cover; }
+.portfolio-testimonial-card blockquote { max-width: 680px; margin: 0 0 18px; color: #9aa5b1; font-size: 1.12rem; line-height: 1.65; }
+.portfolio-testimonial-author { max-width: 600px; margin: 0; color: #f5f7fa; font-size: 1.1rem; line-height: 1.55; }
+.portfolio-testimonial-controls { display: flex; justify-content: flex-end; gap: 8px; margin-top: 12px; }
+.portfolio-testimonial-controls button {
+  width: 42px;
+  height: 42px;
+  border: 0;
+  border-radius: 50%;
+  color: #ffffff;
+  background: transparent;
+  font-size: 2.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.portfolio-testimonial-controls button:hover,
+.portfolio-testimonial-controls button:focus-visible { color: #cced00; outline: 2px solid #cced00; }
+
+/* Footer */
+.portfolio-footer-demo { min-height: 100vh; color: #9aa5b1; background: #001c32; }
+.portfolio-footer-section { background: #0d2436; }
+.portfolio-footer-inner {
+  width: min(100%,1260px);
+  margin: 0 auto;
+  padding: 38px 22px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 28px;
+}
+.portfolio-footer-profile { display: flex; align-items: center; gap: 18px; }
+.portfolio-footer-profile img { width: 86px; height: 86px; flex: 0 0 86px; border-radius: 50%; object-fit: cover; }
+.portfolio-footer-profile h2,
+.portfolio-footer-contact h2 { margin: 0 0 10px; color: #cced00; font-size: 1.25rem; font-weight: 700; }
+.portfolio-footer-profile p { margin: 0; color: #9aa5b1; font-size: 1rem; line-height: 1.5; }
+.portfolio-footer-contact p { display: flex; align-items: center; gap: 12px; margin: 0; color: #9aa5b1; font-size: 1rem; line-height: 1.6; overflow-wrap: anywhere; }
+.portfolio-footer-contact svg { width: 24px; height: 24px; flex: 0 0 24px; color: #5a7184; }
+.portfolio-footer-contact a { color: inherit; text-decoration: none; }
+.portfolio-footer-contact a:hover,
+.portfolio-footer-contact a:focus-visible { color: #ffffff; text-decoration: underline; }
+.portfolio-footer-copyright { margin: 0; padding: 18px 14px; color: #9aa5b1; background: #001c32; text-align: center; font-size: .95rem; }
+
+@media (min-width: 576px) {
+  .portfolio-content-inner,
+  .portfolio-about-inner { padding: 64px 32px; }
+  .portfolio-skills-grid { gap: 20px; }
+  .portfolio-skill-card { min-height: 176px; }
+  .portfolio-project-card > img { height: 255px; }
+  .portfolio-service-card { padding: 28px; }
+  .portfolio-work-section { padding: 64px 32px; }
+  .portfolio-footer-inner { padding: 42px 32px; }
+}
+
+@media (min-width: 768px) {
+  .portfolio-about-layout { grid-template-columns: minmax(230px,.85fr) minmax(0,1.15fr); align-items: start; gap: 30px; }
+  .portfolio-about-photo { max-height: 460px; }
+  .portfolio-skills-grid { grid-template-columns: repeat(4,minmax(0,1fr)); }
+  .portfolio-project-cards { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 28px; }
+  .portfolio-project-card > img { height: 220px; }
+  .portfolio-services-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .portfolio-work-inner { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px; }
+  .portfolio-work-section { min-height: 60vh; }
+  .portfolio-work-demo { min-height: 60vh; }
+  .portfolio-footer-inner { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 34px 28px; }
+  .portfolio-testimonial-card { min-height: 360px; padding: 38px; }
+}
+
+@media (min-width: 992px) {
+  .portfolio-content-inner,
+  .portfolio-about-inner { padding: 76px 36px; }
+  .portfolio-project-card > img { height: 260px; }
+  .portfolio-services-grid { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px; }
+  .portfolio-service-card { min-height: 350px; padding: 30px; }
+  .portfolio-work-section { min-height: 565px; }
+  .portfolio-work-demo { min-height: 565px; }
+  .portfolio-footer-inner { grid-template-columns: 1.15fr .9fr .95fr 1.2fr; gap: 24px; align-items: start; }
+  .portfolio-footer-profile { align-items: flex-start; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portfolio-testimonial-controls button { scroll-behavior: auto; }
+}

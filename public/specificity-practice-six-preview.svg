@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-label="Specificity Practice-6 project preview">
+  <rect width="720" height="480" fill="#fff"/>
+  <g font-family="Arial, sans-serif" font-size="24">
+    <rect y="0" width="720" height="82" fill="#deb887"/>
+    <text x="20" y="52" fill="#fff">Make the World Wonderful</text>
+    <rect y="82" width="720" height="82" fill="#deb887"/>
+    <text x="20" y="134" fill="#000">Spread the Light</text>
+    <rect y="164" width="720" height="82" fill="#deb887"/>
+    <text x="20" y="216" fill="#00f">Channelise your Energy</text>
+  </g>
+</svg>

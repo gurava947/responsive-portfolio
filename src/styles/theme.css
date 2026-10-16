@@ -1,0 +1,73 @@
+:root {
+  color-scheme: light;
+  --theme-primary: #6d5ce8;
+  --theme-secondary: #0891b2;
+  --theme-accent: #db2777;
+  --theme-background: #f1f5fb;
+  --theme-surface-base: #ffffff;
+  --theme-surface: color-mix(in srgb, var(--theme-surface-base) var(--theme-card-opacity), transparent);
+  --theme-border-color: #64748b;
+  --theme-border: color-mix(in srgb, var(--theme-border-color) var(--theme-border-opacity), transparent);
+  --theme-text: #172033;
+  --theme-muted-text: #526176;
+  --theme-on-primary: #ffffff;
+  --theme-card-opacity: 14%;
+  --theme-blur: 24px;
+  --theme-border-opacity: 20%;
+  --theme-shadow-opacity: 25%;
+  --theme-shadow: 0 20px 60px rgb(0 0 0 / var(--theme-shadow-opacity));
+  --theme-radius: 24px;
+  --theme-transition: 240ms ease;
+  --theme-card-bg: #ffffff;
+  --theme-card-text: #18231d;
+  --theme-card-muted: #66725d;
+  --theme-card-border: #dfe8d9;
+  --theme-card-chip-bg: #f4f7ef;
+  --theme-card-image-bg: #e9eddf;
+}
+
+/* Dark mode */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --theme-background: #070b14;
+  --theme-surface-base: #dbeafe;
+  --theme-border-color: #e2e8f0;
+  --theme-text: #f8fafc;
+  --theme-muted-text: #bac8da;
+  --theme-on-primary: #ffffff;
+  --theme-card-bg: #202822;
+  --theme-card-text: #eef2e8;
+  --theme-card-muted: #aab4a8;
+  --theme-card-border: #3a453b;
+  --theme-card-chip-bg: #273329;
+  --theme-card-image-bg: #29352d;
+}
+
+/* White mode */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --theme-background: #f1f5fb;
+  --theme-surface-base: #ffffff;
+  --theme-border-color: #64748b;
+  --theme-text: #172033;
+  --theme-muted-text: #526176;
+  --theme-on-primary: #ffffff;
+  --theme-card-bg: #ffffff;
+  --theme-card-text: #18231d;
+  --theme-card-muted: #66725d;
+  --theme-card-border: #dfe8d9;
+  --theme-card-chip-bg: #f4f7ef;
+  --theme-card-image-bg: #e9eddf;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  color: var(--theme-text);
+  background-color: var(--theme-background);
+  transition: color var(--theme-transition), background-color var(--theme-transition);
+}

@@ -1,0 +1,1 @@
+-- The idempotent initial schema in ../schema.sql is applied transactionally.
