@@ -1,6 +1,18 @@
 # Practice.folio — Responsive Portfolio
 
-A responsive portfolio with 35 active projects, the supplied certificate, score, themes, navigation, and locally stored project content. The catalog includes the earlier 23 sections plus 12 additional responsive design and ecommerce sections. Their project records and portfolio metadata are seeded into the app's local SQLite database, and the new project imagery is served from local assets; the website uses no remote data service.
+A responsive portfolio experience that turns 35 front-end practice projects into a searchable, navigable product. It includes project detail routes, seeded portfolio metadata, a certificate page, responsive layouts, theme controls, and a Vercel-ready static deployment mode.
+
+## Highlights
+
+- 35 projects across responsive design, layout, ecommerce, HTML, CSS, Bootstrap, and JavaScript practice
+- Search, category navigation, project detail routes, certificate information, and light/dark themes
+- Responsive layouts reviewed across mobile, tablet, and desktop breakpoints
+- Local SQLite-backed development workflow with build-time JSON export for static hosting
+- Security response headers and bounded API error responses configured for deployment
+
+## Tech stack
+
+React, Vite, JavaScript, Bootstrap, Node.js, Express, SQLite, and automated frontend/backend checks.
 
 ## Run locally
 
@@ -11,13 +23,26 @@ npm install
 npm start
 ```
 
-The app builds the frontend, initializes `static-web-development.db` from `backend/db/project-seed.json` and `backend/db/portfolio-metadata.json`, then serves the website and local API at `http://127.0.0.1:3000` by default. Set `HOST` and `PORT` to change the listener.
+The application initializes local data from `backend/db/project-seed.json` and `backend/db/portfolio-metadata.json`, then serves the frontend and local API at `http://127.0.0.1:3000`. Use `HOST` and `PORT` to change the listener.
 
-## Local data
+## Verification
 
-- `backend/db/project-seed.json` contains all 35 active projects and their component data.
-- `backend/db/portfolio-metadata.json` contains navigation, site copy, theme presets, preview breakpoints, certificate details, exam score, and topics.
-- `backend/db/seed.js` replaces stale project rows on initialization, so only the new project catalog remains.
-- `src/services/portfolioApi.js` reads the local `/api/portfolio` endpoint. The website requires no external database configuration or remote data service.
+```bash
+npm run build
+npm test
+```
 
-The uploaded source archives remain unchanged. A new SQLite database is created when this app copy starts.
+Check the repository's audit and implementation notes for the current release verification details. The local SQLite database is development data; the Vercel deployment uses build-time exported data and does not depend on request-time database writes.
+
+## Deployment
+
+The project includes `vercel.json` and a static deployment path. Build-time data export keeps the public deployment compatible with serverless hosting while preserving the richer local API workflow for development.
+
+## Links
+
+- Live demo: https://responsive-portfolio-five-iota.vercel.app
+- Source: https://github.com/gurava947/responsive-portfolio
+
+## Maintenance notes
+
+Keep project metadata and images in the repository, run the build and tests before publishing, and update this README when the project count, deployment mode, or supported commands change.
